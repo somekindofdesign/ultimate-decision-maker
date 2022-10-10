@@ -32,3 +32,11 @@ function playGame(playerChoice) {
     updateScores(result);
 
 }
+
+if (computerChoice === playerChoice) {
+    result = false;
+  } else if (computerChoice > playerChoice) {
+    result = false;
+  } else {
+    result = true;
+  }
