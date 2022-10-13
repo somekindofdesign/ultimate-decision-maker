@@ -10,8 +10,8 @@ const choices = ["rock", "paper", "scissors"];
 
 for (let button of buttons) {
     button.addEventListener("click", function () {
-        let playerChoice = getAttribute("data-choice");
-        playerGame(playerChoice);
+        let playerChoice = this.getAttribute("data-choice");
+        playGame(playerChoice);
     });
 }
 
