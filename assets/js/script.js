@@ -1,13 +1,11 @@
-/**
+ /**
  * Code Institute Rock Paper Scissors Spock Example Game
  */
 
-const buttons = documents.getElementByClassName("control");
-const playerScore = documents.getElementById("player-score");
-const computerScore = documents.getElementById("computer-score");
-const playerImage = documents.getElementById("player-image");
-const computerImage = documents.getElementById("computer-image");
-const messages = documents.getElementById("messages");
+const buttons = document.getElementsByClassName("control");
+const playerScore = document.getElementById("player-score");
+const computerScore = document.getElementById("computer-score");
+const messages = document.getElementById("messages");
 const choices = ["rock", "paper", "scissors"];
 
 for (let button of buttons) {
@@ -19,24 +17,29 @@ for (let button of buttons) {
 
 function playGame(playerChoice) {
 
-    playerImage.src = `assets/images/{$choices[playerChoice]}.png`;
-    playerImage.alt = choices[playerChoice];
-
     let computerChoice = Math.floor(Math.random() * 3);
-
-    computerImage.src = `assets/images/{$choices[computerChoice]}.png`;
-    computerImage.alt = choices[computerChoice];
 
     let result = checkWinner(choices[computerChoice], choices[playerChoice]);
 
     updateScores(result);
 
-}
-
-if (computerChoice === playerChoice) {
-    result = false;
-  } else if (computerChoice > playerChoice) {
-    result = false;
-  } else {
-    result = true;
+    if (playerChoice === "paper") {
+      if (computerChoice === "rock") {
+          return "You win this round";
+      } else {
+          if (computerChoice === "scissors") {
+              return "You lost this round";
+          }
+      }
+      if (playerChoice === "scissors") {
+          if (computerChoice === "rock") {
+              return "You lost this round";
+          } else {
+              if (computerChoice === "paper") {
+                  return "You win this round";
+              }
+          }
+      }
   }
+
+}
