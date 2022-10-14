@@ -8,19 +8,15 @@
     <title>Document</title>
 </head>
 <body>
-    <section class="game-area">
-        <div>
-            <button aria-label="rock" data-choice="0" class="control">Rock</button>
-            <button aria-label="paper" data-choice="1" class="control">Paper</button>
-            <button aria-label="scissors" data-choice="2" class="control">Scissors</button>
-        </div>
-        <div id="messages"></div>
-        <div class="player">
-            <h3 class="scores">Your score: <span id="player-score"></span></h3>
-        </div>
-        <div class="computer">
-            <h3 class="scores">Your score: <span id="computer-score"></span></h3>
-        </div>
+    <section class="game">
+        <p>Computer Choice: <span id="computerChoice"></span></p>
+        <p>Your Choice: <span id="playerChoice"></span></p>
+
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+
+        <p>Result: <span id="result"></span></p>
     </section>
     <script src="assets/js/script.js"></script>
 </body>
