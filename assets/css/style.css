@@ -13,6 +13,41 @@ body {
     background-color: #001F3F;
 }
 
+/* type */
+
+h1 {
+    font-size: 2.369rem;
+    margin-top: 1em;
+}
+
+h2 {
+    font-size: 1.777rem;
+}
+
+h3 {
+    font-size: 1.333rem;
+}
+
+h1, h2, h3 {
+    font-family: Bungee, CourierNew, Courier, monospace;
+    letter-spacing: 4px;
+    color: #ffffff;
+    line-height: 1.4em;
+    text-align: center;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+p {
+    padding-bottom: 1rem;
+}
+
 .game {
     box-sizing: border-box;
     width: 75%;
@@ -20,3 +55,31 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+.choose {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+    .choose i {
+        font-size: 1.5rem;
+        color: #01FF70;
+        height: 100%;
+        border-radius: 50%;
+        border: 1px solid #01FF70;
+        padding: .5em;
+        margin: .5em;
+    }
+
+        .choose i:hover {
+            color: #FFDC00;
+            border: 1px solid #FFDC00;
+        }
