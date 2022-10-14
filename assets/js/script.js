@@ -36,67 +36,67 @@ allChoices.forEach(aChoice => aChoice.addEventListener('click', (e) => {
 
   function getResult() {
     if (computerChoice === playerChoice) {
-      result = 'Its a tie'
+      result = 'It's a tie!'
     }
     if (computerChoice === 'rock' && playerChoice === "paper") {
-      result = 'You won this round'
+      result = 'Rock covers paper - you won!'
     }
     if (computerChoice === 'rock' && playerChoice === "scissors") {
-      result = 'You lost this round'
+      result = 'Rock crushes scissors - you won!'
     }
     if (computerChoice === 'rock' && playerChoice === "lizard") {
-        result = 'You lost this round'
+        result = 'Rock crushes lizard - you won!'
     }
     if (computerChoice === 'rock' && playerChoice === "spock") {
-        result = 'You lost this round'
+        result = 'Spock vaporizes rock - you lost.'
     }
     if (computerChoice === 'paper' && playerChoice === "rock") {
-      result = 'You won this round'
+      result = 'Paper covers rock - you won!'
     }
     if (computerChoice === 'paper' && playerChoice === "scissors") {
-      result = 'You lost this round'
+      result = 'Scissors cuts paper - you lost.'
     }
     if (computerChoice === 'paper' && playerChoice === "lizard") {
-        result = 'You lost this round'
+        result = 'Lizard eats paper - you lost.'
     }
     if (computerChoice === 'paper' && playerChoice === "spock") {
-        result = 'You lost this round'
+        result = 'Paper disproves Spock - you win!'
     }
     if (computerChoice === 'scissors' && playerChoice === "rock") {
-      result = 'You won this round'
+      result = 'Rock crushes scissors - you lost.'
     }
     if (computerChoice === 'scissors' && playerChoice === "paper") {
-      result = 'You lost this round'
+      result = 'Scissors cuts paper - you won!'
     }
     if (computerChoice === 'scissors' && playerChoice === "lizard") {
-        result = 'You lost this round'
+        result = 'Scissors decapitates lizard - you won!'
     }
     if (computerChoice === 'scissors' && playerChoice === "spock") {
-        result = 'You lost this round'
+        result = 'Spock smashes scissors - you lost.'
     }
     if (computerChoice === 'lizard' && playerChoice === "rock") {
-        result = 'You lost this round'
+        result = 'Rock crushes lizard - you lost.'
     }
     if (computerChoice === 'lizard' && playerChoice === "paper") {
-        result = 'You lost this round'
+        result = 'Lizard eats paper - you won!'
     }
     if (computerChoice === 'lizard' && playerChoice === "scissors") {
-        result = 'You lost this round'
+        result = 'Scissors decapitates lizard - you won!'
     }
     if (computerChoice === 'lizard' && playerChoice === "spock") {
-        result = 'You lost this round'
+        result = 'Lizard poisons Spock - you won!'
     }
     if (computerChoice === 'spock' && playerChoice === "rock") {
-        result = 'You lost this round'
+        result = 'Spock vaporizes rock - you won!'
     }
     if (computerChoice === 'spock' && playerChoice === "paper") {
-        result = 'You lost this round'
+        result = 'Paper disproves Spock - you lost.'
     }
     if (computerChoice === 'spock' && playerChoice === "scissors") {
-        result = 'You lost this round'
+        result = 'Spock smashes scissors - you won!'
     }
     if (computerChoice === 'spock' && playerChoice === "lizard") {
-        result = 'You lost this round'
+        result = 'Lizard poisons Spock - you won!'
     }
     resultText.innerHTML = result
   }
