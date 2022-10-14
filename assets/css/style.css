@@ -138,6 +138,28 @@ header {
             border: 1px solid #FFDC00;
         }
 
+.btn {
+    border: none;
+    border-radius: 5px;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    padding: 1em;
+    cursor: pointer;
+    width: 100%;
+    max-width: 480px;
+    box-sizing: border-box;
+    margin: auto;
+}
+        
+    .btn-pink {
+        color: #001F3F;
+        background-color: #F012BE;
+    }
+
 #choices {
     display: flex;
     justify-content: space-around;
