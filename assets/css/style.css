@@ -79,14 +79,6 @@ header {
     box-sizing: border-box;
 }
 
-#game {
-    box-sizing: border-box;
-    width: 75%;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 #menu {
     color:#FFDC00;
     font-size: 1rem;
