@@ -1,8 +1,19 @@
-body {
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Ubuntu+Mono:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
-.game-area {
+body {
+    text-align: center;
+    font-family: Ubuntu, 'Courier New', Courier, monospace;
+    color: #ffffff;
+    background-color: #001F3F;
+}
+
+.game {
     box-sizing: border-box;
     width: 75%;
     max-width: 800px;
