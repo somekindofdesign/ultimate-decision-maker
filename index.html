@@ -8,9 +8,9 @@
     <title>Ultimate Decision Maker</title>
 </head>
 <body>
-    <section class="game">
-        <h2>Choose your hand</h2>
-        <div class="choose">
+    <section id="game">
+        <h1>Choose your hand</h1>
+        <div id="choose">
         <button id="rock"><i class="fas fa-hand-rock"></i></button>
         <button id="paper"><i class="fas fa-hand-paper"></i></button>
         <button id="scissors"><i class="fas fa-hand-scissors"></i></button>
@@ -18,10 +18,18 @@
         <button id="spock"><i class="fas fa-hand-spock"></i></button>
         </div>
 
-        <p>Computer Choice: <span id="computerChoice"></span></p>
-        <p>Your Choice: <span id="playerChoice"></span></p>
+        <section id="choices">
+        <div>
+            <h2>You</h2>
+            <h3 id="playerChoice"></h3>
+        </div>
+        <div>
+            <h2>Opponent</h2>
+            <h3 id="computerChoice"></h3>
+        </div>
+        </section>
 
-        <p><span id="result"></span></p>
+        <h2><span id="result"></span></h2>
     </section>
 
     <script src="https://kit.fontawesome.com/1bb627a8c8.js" crossorigin="anonymous"></script>

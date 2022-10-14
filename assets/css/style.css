@@ -48,7 +48,7 @@ p {
     padding-bottom: 1rem;
 }
 
-.game {
+#game {
     box-sizing: border-box;
     width: 75%;
     max-width: 800px;
@@ -61,7 +61,7 @@ button {
     cursor: pointer;
 }
 
-.choose {
+#choose {
     width: 100%;
     max-width: 800px;
     margin: auto;
@@ -69,7 +69,7 @@ button {
     text-align: center;
 }
 
-    .choose i {
+    #choose i {
         font-size: 1.5rem;
         color: #01FF70;
         height: 100%;
@@ -79,7 +79,12 @@ button {
         margin: .5em;
     }
 
-        .choose i:hover {
+        #choose i:hover {
             color: #FFDC00;
             border: 1px solid #FFDC00;
         }
+
+#choices {
+    display: flex;
+    justify-content: space-around;
+}
