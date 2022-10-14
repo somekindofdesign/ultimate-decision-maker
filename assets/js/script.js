@@ -13,16 +13,41 @@ allChoices.forEach(aChoice => aChoice.addEventListener('click', (e) => {
   }))
 
   function generateComputerChoice() {
-    const randomNumber = Math.floor(Math.random() * 3) + 1
+    const randomNumber = Math.floor(Math.random() * 3)
     
     if (randomNumber === 1) {
       computerChoice = 'rock'
     }
     if (randomNumber === 2) {
-      computerChoice = 'sicssors'
+      computerChoice = 'scissors'
     }
     if (randomNumber === 3) {
       computerChoice = 'paper'
     }
     computerChoiceText.innerHTML = computerChoice
+  }
+
+  function getResult() {
+    if (computerChoice === playerChoice) {
+      result = 'Its a tie'
+    }
+    if (computerChoice === 'rock' && playerChoice === "paper") {
+      result = 'You won this round'
+    }
+    if (computerChoice === 'rock' && playerChoice === "scissors") {
+      result = 'You lost this round'
+    }
+    if (computerChoice === 'paper' && playerChoice === "scissors") {
+      result = 'You won this round'
+    }
+    if (computerChoice === 'paper' && playerChoice === "rock") {
+      result = 'You lost this round'
+    }
+    if (computerChoice === 'scissors' && playerChoice === "rock") {
+      result = 'You won this round'
+    }
+    if (computerChoice === 'scissors' && playerChoice === "paper") {
+      result = 'You lost this round'
+    }
+    resultText.innerHTML = result
   }
