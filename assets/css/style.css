@@ -87,6 +87,41 @@ header {
     margin-right: auto;
 }
 
+#menu {
+    color:#FFDC00;
+    font-size: 1rem;
+    letter-spacing: 4px;
+}
+    
+    #menu ul {
+        width: 100%;
+        display: inline-block;
+        margin: auto;
+        box-sizing: border-box;
+    }
+
+    #menu li {
+        display: inline-block;
+        list-style-type: none;
+        margin: 1em;
+    }
+    
+    #menu a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    #menu a:hover {
+        border-bottom: 1px solid #FFDC00;
+        font-weight: 700;
+    }
+    
+    .active {
+        border-bottom: 1px solid #FFDC00;
+        font-weight: 700;
+    }
+
+
 #choose {
     width: 100%;
     max-width: 800px;
