@@ -114,3 +114,24 @@ header {
     display: flex;
     justify-content: space-around;
 }
+
+footer {
+    height: 5rem;
+    border-top: 2px dashed #ffffff;
+    margin-top: 1em;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 1.25rem;
+    margin: 1em;
+    padding: 1em;
+    color: #FFDC00;
+}
