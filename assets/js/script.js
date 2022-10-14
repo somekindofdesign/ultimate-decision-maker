@@ -44,17 +44,59 @@ allChoices.forEach(aChoice => aChoice.addEventListener('click', (e) => {
     if (computerChoice === 'rock' && playerChoice === "scissors") {
       result = 'You lost this round'
     }
-    if (computerChoice === 'paper' && playerChoice === "scissors") {
-      result = 'You won this round'
+    if (computerChoice === 'rock' && playerChoice === "lizard") {
+        result = 'You lost this round'
+    }
+    if (computerChoice === 'rock' && playerChoice === "spock") {
+        result = 'You lost this round'
     }
     if (computerChoice === 'paper' && playerChoice === "rock") {
+      result = 'You won this round'
+    }
+    if (computerChoice === 'paper' && playerChoice === "scissors") {
       result = 'You lost this round'
+    }
+    if (computerChoice === 'paper' && playerChoice === "lizard") {
+        result = 'You lost this round'
+    }
+    if (computerChoice === 'paper' && playerChoice === "spock") {
+        result = 'You lost this round'
     }
     if (computerChoice === 'scissors' && playerChoice === "rock") {
       result = 'You won this round'
     }
     if (computerChoice === 'scissors' && playerChoice === "paper") {
       result = 'You lost this round'
+    }
+    if (computerChoice === 'scissors' && playerChoice === "lizard") {
+        result = 'You lost this round'
+    }
+    if (computerChoice === 'scissors' && playerChoice === "spock") {
+        result = 'You lost this round'
+    }
+    if (computerChoice === 'lizard' && playerChoice === "rock") {
+        result = 'You lost this round'
+    }
+    if (computerChoice === 'lizard' && playerChoice === "paper") {
+        result = 'You lost this round'
+    }
+    if (computerChoice === 'lizard' && playerChoice === "scissors") {
+        result = 'You lost this round'
+    }
+    if (computerChoice === 'lizard' && playerChoice === "spock") {
+        result = 'You lost this round'
+    }
+    if (computerChoice === 'spock' && playerChoice === "rock") {
+        result = 'You lost this round'
+    }
+    if (computerChoice === 'spock' && playerChoice === "paper") {
+        result = 'You lost this round'
+    }
+    if (computerChoice === 'spock' && playerChoice === "scissors") {
+        result = 'You lost this round'
+    }
+    if (computerChoice === 'spock' && playerChoice === "lizard") {
+        result = 'You lost this round'
     }
     resultText.innerHTML = result
   }
