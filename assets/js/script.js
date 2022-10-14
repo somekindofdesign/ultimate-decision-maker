@@ -36,7 +36,7 @@ allChoices.forEach(aChoice => aChoice.addEventListener('click', (e) => {
 
   function getResult() {
     if (computerChoice === playerChoice) {
-      result = 'It's a tie!'
+      result = "It's a tie!"
     }
     if (computerChoice === 'rock' && playerChoice === "paper") {
       result = 'Rock covers paper - you won!'
