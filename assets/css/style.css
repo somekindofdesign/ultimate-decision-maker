@@ -143,6 +143,10 @@ header {
     justify-content: space-around;
 }
 
+#result {
+    color: #01FF70;
+}
+
 footer {
     height: 5rem;
     border-top: 2px dashed #ffffff;
