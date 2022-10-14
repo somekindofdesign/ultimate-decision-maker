@@ -4,6 +4,7 @@ const resultText = document.getElementById('result')
 const allChoices = document.querySelectorAll('button')
 let playerChoice
 let computerChoice
+let result
 
 allChoices.forEach(aChoice => aChoice.addEventListener('click', (e) => {
     playerChoice = e.target.id
