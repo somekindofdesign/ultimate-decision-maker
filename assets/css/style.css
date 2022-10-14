@@ -45,7 +45,38 @@ a {
 }
 
 p {
-    padding-bottom: 1rem;
+    padding: 1rem;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 2em 1em 1em 1em;
+    display: inline-block;
+    margin: auto;
+    box-sizing: border-box;
+    border-bottom: 2px dashed #ffffff;
+}
+
+#logo {
+    color: #F012BE;
+    font-size: 2.75rem;
+    font-weight: 700;
+    text-align: center;
+    font-family: Bungee, Courier New, Courier, monospace;
+    letter-spacing: 0.25rem;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    box-sizing: border-box;
 }
 
 #game {
@@ -56,11 +87,6 @@ p {
     margin-right: auto;
 }
 
-button {
-    all: unset;
-    cursor: pointer;
-}
-
 #choose {
     width: 100%;
     max-width: 800px;
@@ -69,7 +95,7 @@ button {
     text-align: center;
 }
 
-    #choose i {
+    #choose i, #choose svg {
         font-size: 1.5rem;
         color: #01FF70;
         height: 100%;
