@@ -93,6 +93,7 @@ header {
     margin: auto;
     box-sizing: border-box;
     text-align: center;
+    padding: 1em;
 }
 
     #choose i, #choose svg {
