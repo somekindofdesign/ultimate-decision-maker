@@ -73,6 +73,7 @@ header {
     text-align: center;
     font-family: Bungee, Courier New, Courier, monospace;
     letter-spacing: 0.25rem;
+    line-height: 4rem;
     width: 100%;
     max-width: 800px;
     margin: auto;
@@ -142,7 +143,7 @@ header {
     border: none;
     border-radius: 5px;
     font-family: Ubuntu, Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-size: 1.25em;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
@@ -156,7 +157,7 @@ header {
 }
         
     .btn-pink {
-        color: #001F3F;
+        color: #ffffff;
         background-color: #F012BE;
     }
 
