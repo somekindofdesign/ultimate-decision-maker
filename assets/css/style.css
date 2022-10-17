@@ -45,7 +45,7 @@ a {
 }
 
 p {
-    padding: 1rem;
+    padding: 1rem 0 1rem 0;
     text-align: center;
     max-width: 800px;
     margin: auto;
@@ -114,6 +114,9 @@ header {
         font-weight: 700;
     }
 
+section {
+    padding: 0 1rem 0 1rem;
+}
 
 #choose {
     width: 100%;
