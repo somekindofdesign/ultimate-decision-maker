@@ -83,6 +83,14 @@ button {
         background-color: #F012BE;
     }
 
+.hyperlink {
+    color: #F012BE;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: 700;
+    width: 100%;
+    margin: auto;
+}
 
 /* header, logo, nav menu */
 

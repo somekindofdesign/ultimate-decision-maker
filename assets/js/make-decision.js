@@ -25,7 +25,7 @@ allChoices.forEach(aChoice => aChoice.addEventListener('click', (e) => {
     const randomNumber = Math.floor(Math.random() * 5) + 1
     
     if (randomNumber === 1) {
-      computerChoice = 'Rock'
+      computerChoice = 'rock'
     }
     if (randomNumber === 2) {
       computerChoice = 'paper'
