@@ -200,7 +200,7 @@ section {
 
 form {
     padding: 1em;
-    max-width: 800px;
+    max-width: 480px;
     margin: auto;
     box-sizing: border-box;
     list-style: none;
@@ -254,6 +254,10 @@ form {
     label {
         color: #01FF70;
         font-weight: 700;
+    }
+
+    form > h3 {
+        padding: 0 0 1.5em 0;
     }
 
 
