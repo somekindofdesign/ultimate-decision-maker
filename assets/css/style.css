@@ -260,6 +260,10 @@ form {
         padding: 0 0 1.5em 0;
     }
 
+    #submitted {
+        color: #01FF70;
+    }
+
 
 /* footer */
 

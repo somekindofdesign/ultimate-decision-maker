@@ -44,6 +44,7 @@
 
         <h2>Got an idea?</h2>
         <p>Is there an idea for a game swirling around your head? Fill out the form below and we'll do our best to make it happen.</p>
+
         <form method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
             <label for="name">Name</label><br>
             <input type="text" id="name" name="name" placeholder="Type your full name" required><br>
@@ -51,8 +52,9 @@
             <input type="text" id="idea" name="idea" placeholder="Tell us about your idea" required><br>
             <label for="email">Email</label><br>
             <input type="email" id="email" name="email" placeholder="eg name@emailaddress.com" required>
-            <button type="submit" id="submit" name="submit" class="btn btn-pink">Send your idea</button>
-        </form>
+            <input type="button" id="submit" onclick="myFunction()" value="Send your idea" class="btn btn-pink">
+          </form>
+          <p id="submitted"></p>
     </section>
 
     <footer>
@@ -73,7 +75,7 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/1bb627a8c8.js" crossorigin="anonymous"></script>
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/about-us.js"></script>
 
 </body>
 </html>
