@@ -1,6 +1,7 @@
-function CompareChoices(oneChoice, twoChoice) {  
-    var oneChoice = document.getElementById('oneChoice');  
-    var twoChoice = document.getElementById('twoChoice');  
+function CompareChoices(oneChoice, twoChoice) {
+    var oneChoice = document.getElementById('oneChoice');
+    var twoChoice = document.getElementById('twoChoice');
+    const allChoices = document.querySelectorAll('button')
   
   if (oneChoice.selectedIndex === twoChoice.selectedIndex) {
     if (twoChoice === oneChoice) {
