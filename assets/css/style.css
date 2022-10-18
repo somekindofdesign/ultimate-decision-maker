@@ -13,6 +13,7 @@ body {
     background-color: #001F3F;
 }
 
+
 /* type */
 
 h1 {
@@ -51,10 +52,38 @@ p {
     margin: auto;
 }
 
+
+/* buttons */
+
 button {
     all: unset;
     cursor: pointer;
 }
+ 
+.btn {
+    border: none;
+    border-radius: 5px;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    padding: 1em;
+    cursor: pointer;
+    width: 100%;
+    max-width: 480px;
+    box-sizing: border-box;
+    margin: auto;
+}
+        
+    .btn-pink {
+        color: #ffffff;
+        background-color: #F012BE;
+    }
+
+
+/* header, logo, nav menu */
 
 header {
     width: 100%;
@@ -114,6 +143,9 @@ header {
         font-weight: 700;
     }
 
+
+/* sections, containers */
+
 section {
     padding: 0 1rem 0 1rem;
 }
@@ -124,7 +156,6 @@ section {
     margin: auto;
     box-sizing: border-box;
     text-align: center;
-    padding: 1em;
 }
 
     #choose i, #choose svg {
@@ -142,36 +173,21 @@ section {
             border: 1px solid #FFDC00;
         }
 
-.btn {
-    border: none;
-    border-radius: 5px;
-    font-family: Ubuntu, Arial, Helvetica, sans-serif;
-    font-size: 1.25em;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    vertical-align: middle;
-    padding: 1em;
-    cursor: pointer;
-    width: 100%;
-    max-width: 480px;
-    box-sizing: border-box;
-    margin: auto;
-}
-        
-    .btn-pink {
-        color: #ffffff;
-        background-color: #F012BE;
-    }
-
-#choices {
+#choices, #scores {
     display: flex;
     justify-content: space-around;
 }
 
+    #choices > div, #scores > div {
+        width: 50%;
+    }
+
 #result {
     color: #01FF70;
 }
+
+
+/* form */
 
 form {
     padding: 1em;
@@ -230,6 +246,9 @@ form {
         color: #01FF70;
         font-weight: 700;
     }
+
+
+/* footer */
 
 footer {
     height: 5rem;

@@ -25,7 +25,7 @@ allChoices.forEach(aChoice => aChoice.addEventListener('click', (e) => {
     const randomNumber = Math.floor(Math.random() * 5) + 1
     
     if (randomNumber === 1) {
-      computerChoice = 'rock'
+      computerChoice = 'Rock'
     }
     if (randomNumber === 2) {
       computerChoice = 'paper'
@@ -52,107 +52,105 @@ allChoices.forEach(aChoice => aChoice.addEventListener('click', (e) => {
     }
 
     ///computer chooses paper
-    if (computerChoice === 'rock' && playerChoice === "paper") {
-      result = 'Rock covers paper - you lost.';
+    if (computerChoice === 'Rock' && playerChoice === "Paper") {
+      result = 'Rock covers paper - you lost';
       computerScore++
     }
-    if (computerChoice === 'rock' && playerChoice === "scissors") {
-      result = 'Rock crushes scissors - you lost.';
+    if (computerChoice === 'Rock' && playerChoice === "Scissors") {
+      result = 'Rock crushes scissors - you lost';
       computerScore++
     }
-    if (computerChoice === 'rock' && playerChoice === "lizard") {
-      result = 'Rock crushes lizard - you lost.';
+    if (computerChoice === 'Rock' && playerChoice === "Lizard") {
+      result = 'Rock crushes lizard - you lost';
       computerScore++
     }
-    if (computerChoice === 'rock' && playerChoice === "spock") {
+    if (computerChoice === 'Rock' && playerChoice === "Spock") {
       result = 'Spock vaporizes rock - you win!';
       playerScore++
     }
 
     ///computer chooses paper
-    if (computerChoice === 'paper' && playerChoice === "rock") {
-      result = 'Paper covers rock - lost.';
+    if (computerChoice === 'Paper' && playerChoice === "Rock") {
+      result = 'Paper covers rock - lost';
       computerScore++
     }
-    if (computerChoice === 'paper' && playerChoice === "scissors") {
+    if (computerChoice === 'Paper' && playerChoice === "Scissors") {
       result = 'Scissors cuts paper - you win!';
       playerScore++
     }
-    if (computerChoice === 'paper' && playerChoice === "lizard") {
+    if (computerChoice === 'Paper' && playerChoice === "Lizard") {
       result = 'Lizard eats paper - you win!';
       playerScore++
     }
-    if (computerChoice === 'paper' && playerChoice === "spock") {
-      result = 'Paper disproves Spock - you lost.';
+    if (computerChoice === 'Paper' && playerChoice === "Spock") {
+      result = 'Paper disproves Spock - you lost';
       computerScore++
     }
 
     ///computer chooses scissors
-    if (computerChoice === 'scissors' && playerChoice === "rock") {
+    if (computerChoice === 'Scissors' && playerChoice === "Rock") {
       result = 'Rock crushes scissors - you win!';
       playerScore++
     }
-    if (computerChoice === 'scissors' && playerChoice === "paper") {
-      result = 'Scissors cuts paper - you lost.';
+    if (computerChoice === 'Scissors' && playerChoice === "Paper") {
+      result = 'Scissors cuts paper - you lost';
       computerScore++
     }
-    if (computerChoice === 'scissors' && playerChoice === "lizard") {
-      result = 'Scissors decapitates lizard - you lost.';
+    if (computerChoice === 'Scissors' && playerChoice === "Lizard") {
+      result = 'Scissors decapitates lizard - you lost';
       computerScore++
     }
-    if (computerChoice === 'scissors' && playerChoice === "spock") {
+    if (computerChoice === 'Scissors' && playerChoice === "Spock") {
       result = 'Spock smashes scissors - you win!';
       playerScore++
     }
 
     ///computer chooses lizard
-    if (computerChoice === 'lizard' && playerChoice === "rock") {
+    if (computerChoice === 'Lizard' && playerChoice === "Rock") {
       result = 'Rock crushes lizard - you win!';
       playerScore++
     }
-    if (computerChoice === 'lizard' && playerChoice === "paper") {
-      result = 'Lizard eats paper - you lost.';
+    if (computerChoice === 'Lizard' && playerChoice === "Paper") {
+      result = 'Lizard eats paper - you lost';
       computerScore++
     }
-    if (computerChoice === 'lizard' && playerChoice === "scissors") {
+    if (computerChoice === 'Lizard' && playerChoice === "Scissors") {
       result = 'Scissors decapitates lizard - you win!';
       playerScore++
     }
-    if (computerChoice === 'lizard' && playerChoice === "spock") {
-      result = 'Lizard poisons Spock - you lost.';
+    if (computerChoice === 'Lizard' && playerChoice === "Spock") {
+      result = 'Lizard poisons Spock - you lost';
       computerScore++
     }
 
     ///computer chooses spock
-    if (computerChoice === 'spock' && playerChoice === "rock") {
-      result = 'Spock vaporizes rock - you lost.';
+    if (computerChoice === 'Spock' && playerChoice === "Rock") {
+      result = 'Spock vaporizes rock - you lost';
       computerScore++
     }
-    if (computerChoice === 'spock' && playerChoice === "paper") {
+    if (computerChoice === 'Spock' && playerChoice === "Paper") {
       result = 'Paper disproves Spock - you win!';
       playerScore++
     }
-    if (computerChoice === 'spock' && playerChoice === "scissors") {
-      result = 'Spock smashes scissors - you lost.';
+    if (computerChoice === 'Spock' && playerChoice === "Scissors") {
+      result = 'Spock smashes scissors - you lost';
       computerScore++
     }
-    if (computerChoice === 'spock' && playerChoice === "lizard") {
+    if (computerChoice === 'Spock' && playerChoice === "Lizard") {
       result = 'Lizard poisons Spock - you win!';
       playerScore++
     }
 
+    ///display result
+    resultText.innerHTML = result
+  
     ///update scores function
     function updateScore() {
       const playerScore = document.getElementById("playerScore");
       const computerScore = document.getElementById("computerScore");
   
-      playerScore.textContent = `Your Score: ${playerScore}`;
-      computerScore.textContent = `Computer Score: ${computerScore}`;
+      playerScore.innerHTML = `${playerScore}`;
+      computerScore.innerHTML = `${computerScore}`;
   }
 
-    ///display result
-    resultText.innerHTML = result
-
-    ///update scores
-    resultText.innerHTML = result
-  }
+}
