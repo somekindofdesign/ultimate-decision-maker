@@ -156,7 +156,7 @@ header {
 /* sections, containers */
 
 section {
-    padding: 0 1rem 0 1rem;
+    padding: 0 1em 1em 1em;
 }
 
 #choose {
