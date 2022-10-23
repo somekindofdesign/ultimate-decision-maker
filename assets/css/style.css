@@ -169,12 +169,19 @@ section {
 
     #choose > button {
         font-family: Bowlby One, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        letter-spacing: 4px;
         color: #01FF70;
-        line-height: 1.4em;
-        text-align: center;
-        padding: 1rem;
+        border-radius: 5px;
         border: 1px solid #01FF70;
+        font-size: 1.25em;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        vertical-align: middle;
+        padding: 0.5em;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 1em;
+        box-sizing: border-box;
     }
 
         #choose button:hover {
@@ -184,13 +191,16 @@ section {
 
 #choices {
     display: flex;
-    justify-content: space-around;
-    color: #F012BE;
 }
 
     #choices > div {
         width: 50%;
     }
+
+#playerChoice, #computerChoice {
+    color: #F012BE;
+    text-transform: uppercase;
+}
 
 #scores {
     display: inline;
@@ -203,7 +213,7 @@ section {
 
 #result {
     font-weight: 700;
-    color: #01FF70;
+    color: #F012BE;
 }
 
 
@@ -309,4 +319,8 @@ footer {
         #scores > div {
             width: 50%;
         }
+
+    #choose {
+        display: flex;
+    }
 }
