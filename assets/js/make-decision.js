@@ -17,7 +17,6 @@ allChoices.forEach(aChoice => aChoice.addEventListener('click', (e) => {
     playerChoiceText.innerHTML = playerChoice;
     generateComputerChoice();
     getResult();
-    updateScore();
   }))
 
   ///generate computer choice
@@ -47,6 +46,10 @@ allChoices.forEach(aChoice => aChoice.addEventListener('click', (e) => {
 
   ///compare choices, get result
   function getResult() {
+    const playerScoreBoard = document.querySelector('.player');
+    const computerScoreBoard = document.querySelector('.computer');
+
+    //computer and player choose the same
     if (computerChoice === playerChoice) {
       result = "It's a tie!"
     }
@@ -55,90 +58,110 @@ allChoices.forEach(aChoice => aChoice.addEventListener('click', (e) => {
     if (computerChoice === 'rock' && playerChoice === "paper") {
       result = 'Rock covers paper - you lost';
       computerScore++
+      computerScoreBoard.textContent = computerScore;
     }
     if (computerChoice === 'rock' && playerChoice === "scissors") {
       result = 'Rock crushes scissors - you lost';
       computerScore++
+      computerScoreBoard.textContent = computerScore;
     }
     if (computerChoice === 'rock' && playerChoice === "lizard") {
       result = 'Rock crushes lizard - you lost';
       computerScore++
+      computerScoreBoard.textContent = computerScore;
     }
     if (computerChoice === 'rock' && playerChoice === "spock") {
       result = 'Spock vaporizes rock - you win!';
       playerScore++
+      playerScoreBoard.textContent = playerScore;
     }
 
     ///computer chooses paper
     if (computerChoice === 'paper' && playerChoice === "rock") {
       result = 'Paper covers rock - lost';
       computerScore++
+      computerScoreBoard.textContent = computerScore;
     }
     if (computerChoice === 'paper' && playerChoice === "scissors") {
       result = 'Scissors cuts paper - you win!';
       playerScore++
+      playerScoreBoard.textContent = playerScore;
     }
     if (computerChoice === 'paper' && playerChoice === "lizard") {
       result = 'Lizard eats paper - you win!';
       playerScore++
+      playerScoreBoard.textContent = playerScore;
     }
     if (computerChoice === 'paper' && playerChoice === "spock") {
       result = 'Paper disproves Spock - you lost';
       computerScore++
+      computerScoreBoard.textContent = computerScore;
     }
 
     ///computer chooses scissors
     if (computerChoice === 'scissors' && playerChoice === "rock") {
       result = 'Rock crushes scissors - you win!';
       playerScore++
+      playerScoreBoard.textContent = playerScore;
     }
     if (computerChoice === 'scissors' && playerChoice === "paper") {
       result = 'Scissors cuts paper - you lost';
       computerScore++
+      computerScoreBoard.textContent = computerScore;
     }
     if (computerChoice === 'scissors' && playerChoice === "lizard") {
       result = 'Scissors decapitates lizard - you lost';
       computerScore++
+      computerScoreBoard.textContent = computerScore;
     }
     if (computerChoice === 'scissors' && playerChoice === "spock") {
       result = 'Spock smashes scissors - you win!';
       playerScore++
+      playerScoreBoard.textContent = playerScore;
     }
 
     ///computer chooses lizard
     if (computerChoice === 'lizard' && playerChoice === "rock") {
       result = 'Rock crushes lizard - you win!';
       playerScore++
+      playerScoreBoard.textContent = playerScore;
     }
     if (computerChoice === 'lizard' && playerChoice === "paper") {
       result = 'Lizard eats paper - you lost';
       computerScore++
+      computerScoreBoard.textContent = computerScore;
     }
     if (computerChoice === 'lizard' && playerChoice === "scissors") {
       result = 'Scissors decapitates lizard - you win!';
       playerScore++
+      playerScoreBoard.textContent = playerScore;
     }
     if (computerChoice === 'lizard' && playerChoice === "spock") {
       result = 'Lizard poisons Spock - you lost';
       computerScore++
+      computerScoreBoard.textContent = computerScore;
     }
 
     ///computer chooses spock
     if (computerChoice === 'spock' && playerChoice === "rock") {
       result = 'Spock vaporizes rock - you lost';
       computerScore++
+      computerScoreBoard.textContent = computerScore;
     }
     if (computerChoice === 'spock' && playerChoice === "paper") {
       result = 'Paper disproves Spock - you win!';
       playerScore++
+      playerScoreBoard.textContent = playerScore;
     }
     if (computerChoice === 'spock' && playerChoice === "scissors") {
       result = 'Spock smashes scissors - you lost';
       computerScore++
+      computerScoreBoard.textContent = computerScore;
     }
     if (computerChoice === 'spock' && playerChoice === "lizard") {
       result = 'Lizard poisons Spock - you win!';
       playerScore++
+      playerScoreBoard.textContent = playerScore;
     }
 
     ///display result
