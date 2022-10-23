@@ -62,110 +62,110 @@ allChoices.forEach(aChoice => aChoice.addEventListener('click', (e) => {
 
     ///computer chooses paper
     if (computerChoice === 'rock' && playerChoice === "paper") {
-      result = 'Rock covers paper - you lost';
+      result = 'Rock covers paper - you lost this round';
       computerScore++;
       computerScoreUpdate.textContent = computerScore;
     }
     if (computerChoice === 'rock' && playerChoice === "scissors") {
-      result = 'Rock crushes scissors - you lost';
+      result = 'Rock crushes scissors - you lost this round';
       computerScore++;
       computerScoreUpdate.textContent = computerScore;
     }
     if (computerChoice === 'rock' && playerChoice === "lizard") {
-      result = 'Rock crushes lizard - you lost';
+      result = 'Rock crushes lizard - you lost this round';
       computerScore++;
       computerScoreUpdate.textContent = computerScore;
     }
     if (computerChoice === 'rock' && playerChoice === "spock") {
-      result = 'Spock vaporizes rock - you win!';
+      result = 'Spock vaporizes rock - you win this round';
       playerScore++;
       playerScoreUpdate.textContent = playerScore;
     }
 
     ///computer chooses paper
     if (computerChoice === 'paper' && playerChoice === "rock") {
-      result = 'Paper covers rock - lost';
+      result = 'Paper covers rock - lost this round';
       computerScore++;
       computerScoreUpdate.textContent = computerScore;
     }
     if (computerChoice === 'paper' && playerChoice === "scissors") {
-      result = 'Scissors cuts paper - you win!';
+      result = 'Scissors cuts paper - you win this round';
       playerScore++;
       playerScoreUpdate.textContent = playerScore;
     }
     if (computerChoice === 'paper' && playerChoice === "lizard") {
-      result = 'Lizard eats paper - you win!';
+      result = 'Lizard eats paper - you win this round';
       playerScore++;
       playerScoreUpdate.textContent = playerScore;
     }
     if (computerChoice === 'paper' && playerChoice === "spock") {
-      result = 'Paper disproves Spock - you lost';
+      result = 'Paper disproves Spock - you lost this round';
       computerScore++;
       computerScoreUpdate.textContent = computerScore;
     }
 
     ///computer chooses scissors
     if (computerChoice === 'scissors' && playerChoice === "rock") {
-      result = 'Rock crushes scissors - you win!';
+      result = 'Rock crushes scissors - you win this round!';
       playerScore++;
       playerScoreUpdate.textContent = playerScore;
     }
     if (computerChoice === 'scissors' && playerChoice === "paper") {
-      result = 'Scissors cuts paper - you lost';
+      result = 'Scissors cuts paper - you lost this round';
       computerScore++;
       computerScoreUpdate.textContent = computerScore;
     }
     if (computerChoice === 'scissors' && playerChoice === "lizard") {
-      result = 'Scissors decapitates lizard - you lost';
+      result = 'Scissors decapitates lizard - you lost this round';
       computerScore++;
       computerScoreUpdate.textContent = computerScore;
     }
     if (computerChoice === 'scissors' && playerChoice === "spock") {
-      result = 'Spock smashes scissors - you win!';
+      result = 'Spock smashes scissors - you win this round!';
       playerScore++;
       playerScoreUpdate.textContent = playerScore;
     }
 
     ///computer chooses lizard
     if (computerChoice === 'lizard' && playerChoice === "rock") {
-      result = 'Rock crushes lizard - you win!';
+      result = 'Rock crushes lizard - you win this round';
       playerScore++;
       playerScoreUpdate.textContent = playerScore;
     }
     if (computerChoice === 'lizard' && playerChoice === "paper") {
-      result = 'Lizard eats paper - you lost';
+      result = 'Lizard eats paper - you lost this round';
       computerScore++;
       computerScoreUpdate.textContent = computerScore;
     }
     if (computerChoice === 'lizard' && playerChoice === "scissors") {
-      result = 'Scissors decapitates lizard - you win!';
+      result = 'Scissors decapitates lizard - you win this round';
       playerScore++;
       playerScoreUpdate.textContent = playerScore;
     }
     if (computerChoice === 'lizard' && playerChoice === "spock") {
-      result = 'Lizard poisons Spock - you lost';
+      result = 'Lizard poisons Spock - you lost this round';
       computerScore++;
       computerScoreUpdate.textContent = computerScore;
     }
 
     ///computer chooses spock
     if (computerChoice === 'spock' && playerChoice === "rock") {
-      result = 'Spock vaporizes rock - you lost';
+      result = 'Spock vaporizes rock - you lost this round';
       computerScore++;
       computerScoreUpdate.textContent = computerScore;
     }
     if (computerChoice === 'spock' && playerChoice === "paper") {
-      result = 'Paper disproves Spock - you win!';
+      result = 'Paper disproves Spock - you win this round';
       playerScore++;
       playerScoreUpdate.textContent = playerScore;
     }
     if (computerChoice === 'spock' && playerChoice === "scissors") {
-      result = 'Spock smashes scissors - you lost';
+      result = 'Spock smashes scissors - you lost this round';
       computerScore++;
       computerScoreUpdate.textContent = computerScore;
     }
     if (computerChoice === 'spock' && playerChoice === "lizard") {
-      result = 'Lizard poisons Spock - you win!';
+      result = 'Lizard poisons Spock - you win this round';
       playerScore++;
       playerScoreUpdate.textContent = playerScore;
     }
