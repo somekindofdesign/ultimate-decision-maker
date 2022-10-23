@@ -75,6 +75,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <h3>Features Left to Implement</h3>
 <ul>
     <li>Allow users to choose 'best out of 3' games</li>
+    <li>Add icons as buttons for game choice buttons</li>
 </ul>
 <br>
 
