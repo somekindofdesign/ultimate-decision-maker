@@ -167,17 +167,17 @@ section {
     text-align: center;
 }
 
-    #choose i, #choose svg {
-        font-size: 1.5rem;
+    #choose > button {
+        font-family: Bowlby One, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 4px;
         color: #01FF70;
-        height: 100%;
-        border-radius: 50%;
+        line-height: 1.4em;
+        text-align: center;
+        padding: 1rem;
         border: 1px solid #01FF70;
-        padding: .5em;
-        margin: .5em;
     }
 
-        #choose i:hover {
+        #choose button:hover {
             color: #FFDC00;
             border: 1px solid #FFDC00;
         }
@@ -206,14 +206,6 @@ section {
     color: #01FF70;
 }
 
-#choose > button {
-    font-family: Bowlby One, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    letter-spacing: 4px;
-    color: #01FF70;
-    line-height: 1.4em;
-    text-align: center;
-    padding: 1rem;
-}
 
 /* form */
 
