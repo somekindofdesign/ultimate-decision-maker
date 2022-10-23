@@ -185,6 +185,7 @@ section {
 #choices {
     display: flex;
     justify-content: space-around;
+    color: #F012BE;
 }
 
     #choices > div {
@@ -205,6 +206,14 @@ section {
     color: #01FF70;
 }
 
+#choose > button {
+    font-family: Bowlby One, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 4px;
+    color: #01FF70;
+    line-height: 1.4em;
+    text-align: center;
+    padding: 1rem;
+}
 
 /* form */
 
