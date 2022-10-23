@@ -1,3 +1,9 @@
+/* The following sources were used for general guidance and as part of the debugging process for this game:
+Game Play: https://betterprogramming.pub/7-ways-to-code-rock-paper-scissors-in-javascript-4189a5e7e535 and https://javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d
+Game Score: https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/
+General: https://www.w3schools.com/js/default.asp and https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/
+*/
+
 ///game play
 const computerChoiceText = document.getElementById('computerChoice');
 const playerChoiceText = document.getElementById('playerChoice');
