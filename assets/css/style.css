@@ -289,6 +289,7 @@ form {
     label {
         color: #01FF70;
         font-weight: 700;
+        text-align: center;
     }
 
     form > h3 {
