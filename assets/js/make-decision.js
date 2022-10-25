@@ -20,7 +20,7 @@ let computerScore = 0;
 ///game play function
 allChoices.forEach(aChoice => aChoice.addEventListener('click', (e) => {
     playerChoice = e.target.id;
-    playerChoiceText.innerHTML = playerChoice;
+    playerChoiceText.innerHTML = "Player Hand: "+playerChoice;
     generateComputerChoice();
     getResult();
   }));
@@ -46,7 +46,7 @@ allChoices.forEach(aChoice => aChoice.addEventListener('click', (e) => {
     }
 
     ///display computer choice
-    computerChoiceText.innerHTML = computerChoice;
+    computerChoiceText.innerHTML = "Opponent Hand: "+computerChoice;
   }
 
 
