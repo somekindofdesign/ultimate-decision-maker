@@ -84,7 +84,13 @@ button {
 .btn-pink {
     color: #ffffff;
     background-color: #F012BE;
+    border: 1px solid #F012BE;
 }
+
+    .btn-pink:hover {
+        color: #F012BE;
+        background-color: #001F3F;
+    }
 
 .hyperlink {
     color: #F012BE;
@@ -255,11 +261,11 @@ form {
     }
 
     input[type="text"]:hover, select:hover {
-        border: 1px solid #01FF70;
+        border: 1px solid #FFDC00;
     }
 
     input[type="email"]:hover {
-        border: 1px solid #01FF70;
+        border: 1px solid #FFDC00;
     }
 
     input[type="text"]:focus, select:focus {
