@@ -5,6 +5,12 @@ function compare(oneChoice, twoChoice) {
   var resultText = document.getElementById('result');
   const compareChoices = document.querySelectorAll('button');
 
+  compareChoices.forEach(aChoice => aChoice.addEventListener('click', (e) => {
+    oneChoice = e.target.id;
+    twoChoice = e.target.id;
+    getResult();
+  }));
+
 //assess choices and determine result
 if (oneChoice.selectedIndex === twoChoice.selectedIndex) {
   if (twoChoice === oneChoice) {
