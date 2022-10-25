@@ -1,9 +1,11 @@
+//compare function
 function compare(oneChoice, twoChoice) {
   var oneChoice = document.getElementById('oneChoice');
   var twoChoice = document.getElementById('twoChoice');
   var resultText = document.getElementById('result');
   const compareChoices = document.querySelectorAll('button');
 
+//assess choices and determine result
 if (oneChoice.selectedIndex === twoChoice.selectedIndex) {
   if (twoChoice === oneChoice) {
       result = "It's a tie!"
@@ -26,6 +28,8 @@ if (oneChoice.selectedIndex === twoChoice.selectedIndex) {
     if (twoChoice === 'scissors' && oneChoice === "paper") {
       result = 'Scissors wins'
     }
+
+    //insert result to html
     resultText.innerHTML = result
 }
 }

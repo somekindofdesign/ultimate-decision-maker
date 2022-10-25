@@ -50,7 +50,7 @@ allChoices.forEach(aChoice => aChoice.addEventListener('click', (e) => {
   }
 
 
-  ///compare choices, get result
+  ///compare choices and get result
   function getResult() {
     const playerScoreUpdate = document.querySelector('.player');
     const computerScoreUpdate = document.querySelector('.computer');
