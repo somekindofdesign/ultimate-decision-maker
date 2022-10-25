@@ -210,6 +210,10 @@ section {
         width: 100%;
     }
 
+    #choices {
+        padding: 1em 0 1em 0;
+    }
+
 #playerChoice, #computerChoice {
     color: #FFDC00;
     text-transform: uppercase;
