@@ -217,8 +217,13 @@ section {
     }
 
 #result {
-    font-weight: 700;
+    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+    font-size: 1.266rem;
+    letter-spacing: 4px;
     color: #F012BE;
+    line-height: 1.4em;
+    text-align: center;
+    margin: 1rem;font-weight: 700;
 }
 
 
