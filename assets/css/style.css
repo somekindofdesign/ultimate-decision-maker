@@ -41,13 +41,6 @@ h4 {
     font-size: 1.125em;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-    font-family: Ubuntu, Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-}
-
 p {
     font-size: 1rem;
     padding: 1rem 0 1rem 0;
@@ -57,7 +50,13 @@ p {
 }
 
 
-/* buttons */
+/* buttons and links */
+a {
+    text-decoration: none;
+    color: inherit;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
 
 button {
     all: unset;
@@ -95,8 +94,8 @@ button {
     margin: auto;
 }
 
-/* header, logo, nav menu */
 
+/* header, logo and nav menu */
 header {
     width: 100%;
     text-align: center;
@@ -156,12 +155,13 @@ header {
     }
 
 
-/* sections, containers */
-
+/* sections and containers */
 section {
     padding: 2em 1em 2em 1em;
 }
 
+
+/* choices and choosing */
 #choose {
     width: 100%;
     max-width: 800px;
@@ -205,6 +205,8 @@ section {
     text-transform: uppercase;
 }
 
+
+/*scores*/
 #scores {
     display: inline;
     margin: auto;
@@ -221,7 +223,6 @@ section {
 
 
 /* form */
-
 form {
     padding: 1em;
     max-width: 480px;
@@ -290,7 +291,6 @@ form {
 
 
 /* footer */
-
 footer {
     height: 5rem;
     border-top: 2px dashed #ffffff;
@@ -313,6 +313,7 @@ footer {
 }
 
 
+/* media queries */
 @media screen and (min-width: 768px) {
     #scores {
         display: flex;
