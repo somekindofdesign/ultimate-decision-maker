@@ -214,6 +214,17 @@ section {
     text-transform: uppercase;
 }
 
+/* result */
+#result {
+    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+    font-size: 1.125em;
+    letter-spacing: 4px;
+    color: #01FF70;
+    line-height: 1.4em;
+    text-align: center;
+    margin: 1rem;font-weight: 700;
+}
+
 
 /*scores*/
 #scores {
@@ -224,16 +235,6 @@ section {
     #scores > div {
         width: 100%;
     }
-
-#result {
-    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
-    font-size: 1.266rem;
-    letter-spacing: 4px;
-    color: #F012BE;
-    line-height: 1.4em;
-    text-align: center;
-    margin: 1rem;font-weight: 700;
-}
 
 
 /* form */
