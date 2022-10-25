@@ -236,9 +236,9 @@ section {
 /* result */
 #result {
     font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
-    font-size: 1.125em;
+    font-size: 1em;
     letter-spacing: 4px;
-    color: #01FF70;
+    color: #F012BE;
     line-height: 1.4em;
     text-align: center;
     margin: 1rem;font-weight: 700;
