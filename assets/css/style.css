@@ -17,6 +17,7 @@ body {
 /* type */
 h1, h2, h3, h4 {
     font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+    text-transform: uppercase;
     letter-spacing: 4px;
     color: #ffffff;
     line-height: 1.4em;
