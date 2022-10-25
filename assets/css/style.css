@@ -94,6 +94,10 @@ button {
     margin: auto;
 }
 
+    .hyperlink:hover {
+        color: #FFDC00;
+    }
+
 
 /* header, logo and nav menu */
 header {
