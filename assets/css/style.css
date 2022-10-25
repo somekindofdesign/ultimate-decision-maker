@@ -327,6 +327,13 @@ footer {
         color: #FFDC00;
     }
 
+        .social-networks i:hover {
+            font-size: 1.25rem;
+            margin: 1em;
+            padding: 1em;
+            color: #F012BE;
+        }
+
 
 /* media queries */
 @media screen and (min-width: 768px) {
