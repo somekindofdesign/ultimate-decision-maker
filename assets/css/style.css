@@ -169,7 +169,7 @@ section {
 }
 
 
-/* choices and choosing */
+/* choices, choosing and scores */
 #choose {
     width: 100%;
     max-width: 800px;
@@ -201,12 +201,13 @@ section {
             border: 1px solid #FFDC00;
         }
 
-#choices {
-    display: flex;
+#choices, #scores {
+    display: inline;
+    margin: auto;
 }
-
-    #choices > div {
-        width: 50%;
+            
+    #scores > div, #choices > div {
+        width: 100%;
     }
 
 #playerChoice, #computerChoice {
@@ -224,17 +225,6 @@ section {
     text-align: center;
     margin: 1rem;font-weight: 700;
 }
-
-
-/*scores*/
-#scores {
-    display: inline;
-    margin: auto;
-}
-    
-    #scores > div {
-        width: 100%;
-    }
 
 
 /* form */
@@ -337,12 +327,12 @@ footer {
 
 /* media queries */
 @media screen and (min-width: 768px) {
-    #scores {
+    #scores, #choices {
         display: flex;
         margin: auto;
     }
         
-        #scores > div {
+        #scores > div, #choices > div {
             width: 50%;
         }
 
