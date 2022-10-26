@@ -174,7 +174,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <hr>
 <p>There are several bugs that need to be addressed in the next iteration of this project. None are currently blocking game-play or make the site difficult to use but all wiould improve the overall user experience.</p>
 <ul>
-    <li><strong>Form success message:</strong> The form successfully posts the data after the user submits but they are redirected to the Code Institute 'Form Dump'. A more user friendly version should be implemented that is branded and contains instruction and a call to action. An on-page submit message has been coded but the form is not confirmed to post when using this method so it is inactive currently.</li>
+    <li><strong>Form success:</strong> The form successfully posts the data after the user submits the form and a scu</li>
     <li><strong>Space between content:</strong> Empty divs before function is executed are creating unnecessary space between content requiring additional scrolling on mobile.</li>
     <li><strong>Game reset position:</strong> Currently when the user resets the game, the page refreshes and the user is brought back to the top and away from the game. A different solution is required to reset the scores while preserving the scroll position.</li>
     <li><strong>Jshint warnings:</strong> Although not an error, it should be noted that the following warning is given for most .js pages in this project: "'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)". This should be monitored.</li>
