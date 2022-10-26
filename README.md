@@ -135,9 +135,9 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 
 <h3>Code Validation & the Console</h3>
 <ul>
-    <li><strong>HTML:</strong></li>
-    <li><strong>CSS:</strong></li>
-    <li><strong>JavaScript:</strong></li>
+    <li><strong>HTML:</strong> No errors or warnings were returned by <a href="https://validator.w3.org/">W3C Markup Validation Service</a></li>
+    <li><strong>CSS:</strong> No errors or warnings were returned by <a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validation Service</a></li>
+    <li><strong>JavaScript:</strong> No errors were returned by <a href="https://jshint.com/">JS Hint</a>, however each page received multiple warnings that read "X is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)"</li>
 </ul>
 <br>
 
@@ -153,7 +153,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
     <li>SEO - ??</li>
 </ul>
 
-<strong>Page Speed</strong>
+<p>Page Speed</p>
 <ul>
     <li>Mobile - ??</li>
     <li>Desktop - ??</li>
@@ -179,7 +179,6 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
     <li><strong>How-to compare function:</strong> The function appears not to work beyond the first if statement (a tie). No errors are visible in the console, no errors are visible in jshint and attempts to debug using console.log have been unsuccessful as the log appears at every point tested. Although this is not part of the main function of the site, it should be given priority for debugging as it is completely broken and potentially very frustrating for users, compared to other bugs in this list.</li>
     <li><strong>Form success:</strong> After submitting the form the user sees a new tab open and a confirmation page from the Code Institute's form dump. A solution is required to prevent the tab opening without blocking the data from being sent.</li>
     <li><strong>Form input clear:</strong> After submitting the form the data the user has entered into the input fields remain there. An event listener was added to clear them once the submit was clicked but this cleared the fields before the data was posted. An attempt to add a delay after the event was not successfully debugged before the project deadline and removed from this iteration.</li>
-    <li><strong>Jshint warnings:</strong> Although not an error, it should be noted that the following warning is given for most .js pages in this project: "'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)". This should be monitored.</li>
 </ul>
 
 [Back to top](#welcome-to-the-ultimate-decision-maker)
@@ -198,6 +197,9 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
     <li>Click save</li>
 </ol
 
+<p><strong>The live site can be found here - <a href="https://somekindofdesign/??">https://somekindofdesign/??</a></p></strong>
+<br>
+
 <p>If cloning is required then please follow the below steps:</p>
 <ol>
     <li>Open github.com and log in to user account</li>
@@ -208,7 +210,8 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
     <li>Got to Git Bash and change the current working directory to the new clone location</li>
     <li>Type git clone, and then paste the URL you copied earlier (eg: $ git clone https://github.com/username/cloned-repository-name)</li>
     <li>Click Enter to start the cloning process</li>
-</ol
+</ol>
+<br>
 
 <p>If forking is required then please follow the below steps:</p>
 <ol>
@@ -220,9 +223,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
     <li>You can also add a description</li>
     <li>Only the default branch is copied by default but you can choose to copy all the branches</li>
     <li>Click Create fork</li>
-</ol
-
-<p><strong>The live site can be found here - <a href="https://somekindofdesign/??">https://somekindofdesign/??</a></p></strong>
+</ol>
 
 [Back to top](#welcome-to-the-ultimate-decision-maker)
 <br><br>
