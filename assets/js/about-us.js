@@ -1,5 +1,4 @@
 //90's style cursor courtesy of https://github.com/tholman/cursor-effects
-let cursoreffects;
 new cursoreffects.ghostCursor();
 
 //form success message
