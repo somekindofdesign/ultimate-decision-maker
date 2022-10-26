@@ -174,10 +174,11 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <hr>
 <p>There are several bugs that need to be addressed in the next iteration of this project. None are currently blocking game-play or make the site difficult to use but all would improve the overall user experience.</p>
 <ul>
-    <li><strong>Form success:</strong> After submitting the form the user sees a new tab open and a confirmation page from the Code Institute's form dump. A solution is required to prevent the tab opening without blocking the data from being sent.</li>
-    <li><strong>Form input clear:</strong> After submitting the form the data the user has entered into the input fields remain there. An event listener was added to clear them once the submit was clicked but this cleared the fields before the data was posted. An attempt tp add a delay after the event was not successfully debugged before the project deadline and removed from this iteration.</li>
     <li><strong>Space between content:</strong> Empty divs before the game function is executed are creating unnecessary space between the game and related content (score and reset) requiring additional scrolling on mobile.</li>
     <li><strong>Game reset position:</strong> Currently when the user resets the game, the page reloads and the user is brought back to the top of the page and away from the game. A different solution is required to reset the scores while preserving the scroll position.</li>
+    <li><strong>How-to compare function:</strong> The function appears not to work beyond the first if statement (a tie). No errors are visible in the console, no errors are visible in jshint and attempts to debug using console.log have been unsuccessful as the log appears at every point tested. Although this is not part of the main function of the site, it should be given priority for debugging as it is completely broken and potentially very frustrating for users, compared to other bugs in this list.</li>
+    <li><strong>Form success:</strong> After submitting the form the user sees a new tab open and a confirmation page from the Code Institute's form dump. A solution is required to prevent the tab opening without blocking the data from being sent.</li>
+    <li><strong>Form input clear:</strong> After submitting the form the data the user has entered into the input fields remain there. An event listener was added to clear them once the submit was clicked but this cleared the fields before the data was posted. An attempt to add a delay after the event was not successfully debugged before the project deadline and removed from this iteration.</li>
     <li><strong>Jshint warnings:</strong> Although not an error, it should be noted that the following warning is given for most .js pages in this project: "'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)". This should be monitored.</li>
 </ul>
 
@@ -189,7 +190,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <p>As part of the Code Institute submission process, this site was deployed to GitHub pages. The steps to deploy are as follows:</p>
 <ol>
     <li>Open github.com and log in to user account</li>
-    <li>Find the Ultiamte Decision Maker repository</li>
+    <li>Find the Ultimate Decision Maker repository</li>
     <li>In the GitHub repository, navigate to the Settings tab</li>
     <li>Find the page section on the left hand menu</li>
     <li>Check source is 'Deploy from branch'</li>
@@ -197,9 +198,28 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
     <li>Click save</li>
 </ol
 
-<p>If cloning or forking is required then please follow the below steps:</p>
+<p>If cloning is required then please follow the below steps:</p>
 <ol>
-    <li>??</li>
+    <li>Open github.com and log in to user account</li>
+    <li>Find the Ultimate Decision Maker repository</li>
+    <li>In the GitHub repository, click the Code button</li>
+    <li>Choose which method you would like to clone by; HTTPS or SSH or Github CLI</li>
+    <li>Copy the URL provided by your chosen method</li>
+    <li>Got to Git Bash and change the current working directory to the new clone location</li>
+    <li>Type git clone, and then paste the URL you copied earlier (eg: $ git clone https://github.com/username/cloned-repository-name)</li>
+    <li>Click Enter to start the cloning process</li>
+</ol
+
+<p>If forking is required then please follow the below steps:</p>
+<ol>
+    <li>Open github.com and log in to user account</li>
+    <li>Find the Ultimate Decision Maker repository</li>
+    <li>In the top right corner, click the Fork button</li>
+    <li>Select an owner for the forked repository</li>
+    <li>Choose to use the same name as the forked repository or create a new name</li>
+    <li>You can also add a description</li>
+    <li>Only the default branch is copied by default but you can choose to copy all the branches</li>
+    <li>Click Create fork</li>
 </ol
 
 <p><strong>The live site can be found here - <a href="https://somekindofdesign/??">https://somekindofdesign/??</a></p></strong>
@@ -221,18 +241,23 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 
 <strong>Game Play</strong>
     <ul>
-        <li><a href="https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/">Geeks for Geeks:</a> Building a Rock Paper Scissors Game with JavaScript by pritishnagpal</li>
-        <li><a href="https://javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d">Javascript in Plain English:</a> Building a Rock Paper Scissors Game with JavaScript by Mehdi Aoussiad</li>
+        <li><a href="https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/">Rock Paper Scissors Game with JavaScript</a> by pritishnagpal through GeeksForGeeks.com</li>
+        <li><a href="https://javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d">Building a Rock Paper Scissors Game with JavaScript</a> by Mehdi Aoussiad through JavascriptInPlainEnglish.io</li>
     </ul>
 
 <strong>Game Score</strong>
     <ul>
-        <li><a href="https://betterprogramming.pub/7-ways-to-code-rock-paper-scissors-in-javascript-4189a5e7e535">Better Programming:</a> 7 Ways To Code Rock Paper Scissors in JavaScript by Samuele</li>
+        <li><a href="https://betterprogramming.pub/7-ways-to-code-rock-paper-scissors-in-javascript-4189a5e7e535">7 Ways To Code Rock Paper Scissors in JavaScript</a> by Samuele through BetterProgramming.pub</li>
+    </ul>
+
+<strong>Prevent Page Reload</strong>
+    <ul>
+        <li><a href="https://stackoverflow.com/a/49056105">Stop form refreshing page on submit</a> by Deke through StackOverflow.com</li>
     </ul>
 
 <strong>Ghost Cursor</strong>
     <ul>
-        <li><a href="https://github.com/tholman/cursor-effects">Cursor Effects:</a>  Github Repository by Tholman</li>
+        <li><a href="https://github.com/tholman/cursor-effects">Cursor Effects</a> by Tholman through Github</li>
     </ul>
 <br>
 
