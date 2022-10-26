@@ -1,3 +1,4 @@
+//compare function based on game play js
 const resultText = document.getElementById('result');
 const allChoices = document.querySelectorAll('button');
 let oneChoice;
@@ -91,3 +92,10 @@ function getResult() {
     resultText.innerHTML = result;
 
 }
+
+//prevent page reload on submit courtesy of https://bobbyhadz.com/blog/javascript-clear-input-field-after-submit#:~:text=To%20clear%20an%20input%20field,empty%20string%20resets%20the%20input.
+const btn = document.getElementById('submit-button');
+
+btn.addEventListener('click', function handleClick(event) {
+  event.preventDefault();
+});

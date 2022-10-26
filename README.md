@@ -172,7 +172,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 
 <h2>Unfixed Bugs</h2>
 <hr>
-<p>There are several bugs that need to be addressed in the next iteration of this project. None are currently blocking game-play or make the site difficult to use but all will improve the overall user experience.</p>
+<p>There are several bugs that need to be addressed in the next iteration of this project. None are currently blocking game-play or make the site difficult to use but all wiould improve the overall user experience.</p>
 <ul>
     <li><strong>Form success message:</strong> The form successfully posts the data after the user submits but they are redirected to the Code Institute 'Form Dump'. A more user friendly version should be implemented that is branded and contains instruction and a call to action. An on-page submit message has been coded but the form is not confirmed to post when using this method so it is inactive currently.</li>
     <li><strong>Space between content:</strong> Empty divs before function is executed are creating unnecessary space between content requiring additional scrolling on mobile.</li>
