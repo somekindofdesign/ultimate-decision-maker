@@ -172,11 +172,12 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 
 <h2>Unfixed Bugs</h2>
 <hr>
-<p>There are several bugs that need to be addressed in the next iteration of this project. None are currently blocking game-play or make the site difficult to use but all wiould improve the overall user experience.</p>
+<p>There are several bugs that need to be addressed in the next iteration of this project. None are currently blocking game-play or make the site difficult to use but all would improve the overall user experience.</p>
 <ul>
     <li><strong>Form success:</strong> After submitting the form the user sees a new tab open and a confirmation page from the Code Institute's form dump. A solution is required to prevent the tab opening without blocking the data from being sent.</li>
-    <li><strong>Space between content:</strong> Empty divs before function is executed are creating unnecessary space between content requiring additional scrolling on mobile.</li>
-    <li><strong>Game reset position:</strong> Currently when the user resets the game, the page refreshes and the user is brought back to the top and away from the game. A different solution is required to reset the scores while preserving the scroll position.</li>
+    <li><strong>Form input clear:</strong> After submitting the form the data the user has entered into the input fields remain there. An event listener was added to clear them once the submit was clicked but this cleared the fields before the data was posted. An attempt tp add a delay after the event was not successfully debugged before the project deadline and removed from this iteration.</li>
+    <li><strong>Space between content:</strong> Empty divs before the game function is executed are creating unnecessary space between the game and related content (score and reset) requiring additional scrolling on mobile.</li>
+    <li><strong>Game reset position:</strong> Currently when the user resets the game, the page reloads and the user is brought back to the top of the page and away from the game. A different solution is required to reset the scores while preserving the scroll position.</li>
     <li><strong>Jshint warnings:</strong> Although not an error, it should be noted that the following warning is given for most .js pages in this project: "'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)". This should be monitored.</li>
 </ul>
 
@@ -232,12 +233,6 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <strong>Ghost Cursor</strong>
     <ul>
         <li><a href="https://github.com/tholman/cursor-effects">Cursor Effects:</a>  Github Repository by Tholman</li>
-    </ul>
-
-<strong>Clearing Inputs after Submit</strong>
-    <ul>
-        <li><a href="https://bobbyhadz.com/blog/javascript-clear-input-field-after-submit#:~:text=To%20clear%20all%20form%20fields%20after%20submitting%3A&text=Add%20a%20submit%20event%20listener,fields%20to%20their%20default%20state.">BobbyHadz.com:</a> Clear Input fields after Submit using JavaScript
-by Borislav Hadzhiev</li>
     </ul>
 <br>
 
