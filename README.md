@@ -3,7 +3,7 @@
 <p>Based on the popular online game 'Rock Paper Scissors Lizard Spock', which is in turn based on the popular real life game 'Rock Paper Scissors', the game can be used to make non-binding decisions without the mental effort required of deciding or to settle objective disagreements between friends and family.</p>
 <p>It is a demonstration of my HTML, CSS and JavaScript skills as required by Portfolio 2 Assessment as part of the Code Institute Diploma in Full Stack Software Development.</p>
 <br>
-<strong>The live site can be found <a href="https://somekindofdesign/??">here</a></p></strong>
+<strong>The live site can be found <a href="https://somekindofdesign.github.io/ultimate-decision-maker/">here</a></p></strong>
 <br>
 <p><img width="640px" height=auto src="assets/images/readme/ultimate_decision_maker_mock.png" alt="mock up of desktop, laptop and mobile displaying the ultimate decision maker game website"></p>
 Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_12220977.htm#query=device%20mockup&position=1&from_view=keyword">Freepik</a>
@@ -250,7 +250,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
     <li>Click save</li>
 </ol
 
-<p><strong>The live site can be found here - <a href="https://somekindofdesign/??">https://somekindofdesign/??</a></p></strong>
+<p><strong>The live site can be found here - <a href="https://somekindofdesign.github.io/ultimate-decision-maker/">https://somekindofdesign.github.io/ultimate-decision-maker/</a></p></strong>
 <br>
 
 ### Cloning
