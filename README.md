@@ -183,16 +183,10 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 
 <h3>Google Lighthouse</h3>
 <ul>
-    <li>Performance - ??</li>
-    <li>Accessibility - ??</li>
-    <li>Best Practices - ??</li>
-    <li>SEO - ??</li>
-</ul>
-
-<p>Page Speed</p>
-<ul>
-    <li>Mobile - ??</li>
-    <li>Desktop - ??</li>
+    <li>Performance - 89 (Home), 91 (Decide Now), 92 (How-to), 88 (About)</li>
+    <li>Accessibility - 100 (All)</li>
+    <li>Best Practices - 100 (All)</li>
+    <li>SEO - 100 (All)</li>
 </ul>
 <br>
 
@@ -213,8 +207,10 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <p>Samsung and Apple both overwrite some styles including dropdown menus and some buttons. Further investigation is needed to evaluate if there is a need to address this and how it would be accomplished. Other than those identified during development and documented in the 'Unfixed Bugs' section below, no bugs or discrepencies were discovered and the experience was verified to be consistant across browsers.</p>
 <br>
 
-<h3>User Acceptance Testing</h3>
-<p>??</p>
+<h3>User Experience Testing</h3>
+<p>Tests were conducted with 3 users, one in-person and two remotely using <a href="https://zoom.us">Zoom</a>. All were tested on mobile first then seperately on desktop devices. In all cases, users understood the purpose of the site and the game, they had no issues navigating or playing the game and the experience was reported to be overall, a positive one.</p>
+
+<p>There were some minor areas of confusion and frustration arising from issues that were identified during development. Specifically, the broken comparison tool on the How-to page and the new tab opening following submitting the idea form on the About page caused confusion. Although both were reported as not reason enough for the user not to return to the site, they have been documented in the 'Unfixed Bugs' section below and are reccommended to be fixed in the next iteration.</p>
 
 [Back to top](#welcome-to-the-ultimate-decision-maker)
 <br><br>
