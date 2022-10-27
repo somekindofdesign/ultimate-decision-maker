@@ -251,6 +251,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 </ol
 
 <p><strong>The live site can be found here - <a href="https://somekindofdesign.github.io/ultimate-decision-maker/">https://somekindofdesign.github.io/ultimate-decision-maker/</a></p></strong>
+<p>Initial depolyment was successful and subsequent testing across multiple browsers found no discrepencies.</p>
 <br>
 
 ### Cloning
