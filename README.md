@@ -12,16 +12,28 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 ## Contents
 1. [User Experience](#user-experience)
     1. [User Goals](#user-goals)
+    2. [User Stories](#user-stories)
+    3. [Brand Design](#brand-design)
+    4. [Accessibility](#accessibility)
+    5. [Responsivity](#responsivity)
 2. [Features](#features)
-    1. [User Goals](#user-goals) 
+    1. [Existing Features](#existing-features)
+    1. [Features to Implement](#features-to-implement)
 3. [Testing](#testing)
-    1. [User Goals](#user-goals)
+    1. [Manual Testing](#manual-testing)
+    2. [Code Validation and the Console](#code-validation-and-the-console)
+    3. [Google Lighthouse](#google-lighthouse)
+    4. [Browser Validation](#browser-validation)
+    5. [User Experience Testing](#user-experience-testing)
 4. [Unfixed Bugs](#unfixed-bugs)
-    1. [User Goals](#user-goals) 
 5. [Deployment](#deployment)
-    1. [User Goals](#user-goals) 
+    1. [Deployment](#deployment)
+    2. [Cloning](#cloning)
+    3. [Forking](#forking)
 6. [Credits](#credits)
-    1. [User Goals](#user-goals)
+    1. [Code](#code)
+    2. [Content](#content)
+    3. [Media](#media)
 <br><br>
 
 ## User Experience
@@ -37,7 +49,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 </ul>
 <br>
 
-<strong>User Stories</strong>
+### User Stories
 <p>It is assumed that all users have access to a device capable of connecting to the internet.</p>
 <ul>
 <li>I'm hungry and tired and want to order food for delivery to my house but can't decide if I want to order pizza or sushi</li>
@@ -47,7 +59,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 </ul>
 <br>
 
-<strong>Brand Design</strong>
+### Brand Design
 <p>The site mimics the static, blocky style of early arcade games such as Pacman and Space Invaders. Classic games have seen a revival in popular culture over the last number of years and the Ultimate Decision Maker aims to be part of that nostalgia.
 <ul>
 <li><strong>Colour:</strong> The colour palette uses a dark background and bright, solid colours to highlight different functions and features while relying on white for important detailed information</li>
@@ -56,24 +68,24 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 </ul>
 <br>
 
-<strong>Accessibility</strong>
+### Accessibility
 <p>Colour schemes, typography, button sizes and icon sizes have been designed to align with <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">WCAG 2.0 accessbility guidelines</a> up to a minimum of AA standard.</p>
 <br>
 
-<strong>Responsivity</strong>
-<p>The site was designed and built mobile first (from 320px) with each element considered for behaviour on all devices from initial sketching. Em, rem and percentage units and media queries are used were appropriate ensuring an optimised experience for all. Similarly, maximum width has been applied to accomodate extra large screens.</p>
+### Responsivity
+<p>The site was designed and built mobile first (from 320px) with each element considered for behaviour on all devices from initial sketching. Em, rem and percentage units and media queries are used were appropriate ensuring an optimised experience for all. Similarly, maximum width has been applied to accommodate extra large screens.</p>
 
 [Back to top](#welcome-to-the-ultimate-decision-maker)
 <br><br>
 
 ## Features
 <hr>
-<p>The first release of the Ultimate Decision Maker website includes several vital features which are detailed below. Future releases should include additional features as outlined in the 'Features Left to Implement' section.</p>
+<p>The first release of the Ultimate Decision Maker website includes several vital features which are detailed below. Future releases should include additional features as outlined in the Features to Implement section below.</p>
 <br>
 
-<h3>Existing Features</h3>
+### Existing Features
 <strong>Landing</strong>
-<p>The goal of the landing page is to entice and interest the user in playing the game while simultaneously introducing them to the brand. It includes several key markers including the logo in the header, the stylised type and the icons demonstrating the choices in the game.</p>
+<p>The goal of the landing page is to entice and interest the user into playing the game while simultaneously introducing them to the brand. It includes several key markers including the logo in the header, the stylised type and the icons demonstrating the choices in the game.</p>
 
 <p><img width="640px%" height=auto src="assets/images/readme/home_desktop.png" alt="landing page of ultimate decision maker website at full width">
 <br>
@@ -112,11 +124,11 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <p><img width="640px" height=auto src="assets/images/readme/footer_desktop.png" alt="footer of ultimate decision maker website at full width"></p>
 <br>
 
-<h3>Features Left to Implement</h3>
+### Features to Implement
 <ul>
     <li>Users can personalise the game with custom labels for the choices (e.g. Pizza v Sushi instead of The Choice You Want v The Right Choice)</li>
     <li>Users can play 'Best out of 3' or 'Best of 5' games</li>
-    <li>Users can add multiple players (choices) to the game</li>
+    <li>Users can add multiple players (Pizza vs Sushi vs BBQ) to the game</li>
 </ul>
 
 [Back to top](#welcome-to-the-ultimate-decision-maker)
@@ -124,7 +136,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 
 ## Testing
 <hr>
-<p>Throughout the development of this site, testing was carried out on different devices using the developer tools on multiple browsers including Chrome, Firefox and Microsoft Edge on Windows 10. For all testing, each page was reviewed across the following criteria;
+<p>Throughout the development of this site, testing was carried out on multiple browsers including Chrome, Firefox and Microsoft Edge on Windows 10. The developer tools of these browsers were used to mimic different device sizes. For all testing, each page was asessed across the following criteria;
 <ul>
     <li>Layout and positioning (ie is everything where it's expected to be on all devices)</li>
     <li>Functions (ie buttons, links, inputs, etc)</li>
@@ -134,8 +146,8 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 </p>
 <br>
 
-<h3>Manual Testing</h3>
-<p>Manual testing was conducted by both the developer and an external tester using the following test cases. No errors were found during this phase.</p>
+### Manual Testing
+<p>Manual testing was conducted by both the developer and an external tester using the following test cases. No unexpected errors were found during this phase.</p>
 <br>
 
 <p><strong>Test Case 1 </strong></p>
@@ -188,7 +200,8 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 </ul>
 <br>
 
-<h3>Code Validation & the Console</h3>
+### Code Validation and the Console
+<p>The console does not return any errors.</p>
 <ul>
     <li><strong>HTML:</strong> No errors or warnings were returned by <a href="https://validator.w3.org/">W3C Markup Validation Service</a></li>
     <li><strong>CSS:</strong> No errors or warnings were returned by <a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validation Service</a></li>
@@ -196,7 +209,8 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 </ul>
 <br>
 
-<h3>Google Lighthouse</h3>
+### Google Lighthouse
+<p>All pages of the Ultimate Decision Maker site were tested using the Google Lighthouse tool, through Google Chrome Developer tools and <a href="https://web.dev/measure/">Web.dev</a>.</p>
 <ul>
     <li>Performance - 89 (Home), 91 (Decide Now), 92 (How-to), 88 (About)</li>
     <li>Accessibility - 100 (All)</li>
@@ -205,7 +219,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 </ul>
 <br>
 
-<h3>Browser Validation</h3>
+### Browser Validation
 <p>Browser testing was conducted manually on the following apps:</p>
 <ul>
     <li>Chrome - Desktop & Mobile</li>
@@ -222,7 +236,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <p>Samsung and Apple both overwrite some styles including dropdown menus and some buttons. Further investigation is needed to evaluate if there is a need to address this and how it would be accomplished. Other than those identified during development and documented in the 'Unfixed Bugs' section below, no bugs or discrepencies were discovered and the experience was verified to be consistant across browsers.</p>
 <br>
 
-<h3>User Experience Testing</h3>
+### User Experience Testing
 <p>Tests were conducted with 3 users, one in-person and two remotely using <a href="https://zoom.us">Zoom</a>. All were tested on mobile first then seperately on desktop devices. In all cases, users understood the purpose of the site and the game, they had no issues navigating or playing the game and the experience was reported to be overall, a positive one.</p>
 
 <p>There were some minor areas of confusion and frustration arising from issues that were identified during development. Specifically, the broken comparison tool on the How-to page and the new tab opening following submitting the idea form on the About page caused confusion. Although both were reported as not reason enough for the user not to return to the site, they have been documented in the 'Unfixed Bugs' section below and are reccommended to be fixed in the next iteration.</p>
@@ -246,6 +260,8 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 
 ## Deployment
 <hr>
+
+### Deployment
 <p>As part of the Code Institute submission process, this site was deployed to GitHub pages. The steps to deploy are as follows:</p>
 <ol>
     <li>Open github.com and log in to user account</li>
@@ -260,6 +276,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <p><strong>The live site can be found here - <a href="https://somekindofdesign/??">https://somekindofdesign/??</a></p></strong>
 <br>
 
+### Cloning
 <p>If cloning is required then please follow the below steps:</p>
 <ol>
     <li>Open github.com and log in to user account</li>
@@ -273,6 +290,8 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 </ol>
 <br>
 
+
+### Forking
 <p>If forking is required then please follow the below steps:</p>
 <ol>
     <li>Open github.com and log in to user account</li>
@@ -290,19 +309,20 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 
 ## Credits
 <hr>
-<h3>Code</h3>
-<p>The code from this project was implemented by the project owner, Louise Stanley. Additional help, guidance and solutions were also used from the below sources.</p>
+
+### Code
+<p>The code from this project was implemented by the project owner, Louise Stanley. Additional help, guidance and code were also used from the below sources.</p>
 
 <strong>General</strong>
     <ul>
-        <li><a href="https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+JSE_PAGPPF+2021_Q2/courseware/30137de05cd847d1a6b6d2c7338c4655/c3bd296fe9d643af86e76e830e1470dd/">Code Institute Portfolio 2 Assessment Guide</a> -> used for project idea general project guidance including this ReadMe file</li>
+        <li><a href="https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+JSE_PAGPPF+2021_Q2/courseware/30137de05cd847d1a6b6d2c7338c4655/c3bd296fe9d643af86e76e830e1470dd/">Code Institute Portfolio 2 Assessment Guide</a> -> used for project idea and general project guidance including this ReadMe file</li>
         <li><a href="https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/">Code Institute Love Maths</a> -> used for troubleshooting and guidance</li>
         <li><a href="https://www.w3schools.com/js/">W3Schools Javascript Tutorial</a> -> used for general troubleshooting and debugging</li>
     </ul>
 
 <strong>Game Play</strong>
     <ul>
-        <li><a href="https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/">Rock Paper Scissors Game with JavaScript</a> by pritishnagpal through GeeksForGeeks.com</li>
+        <li><a href="https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/">Rock Paper Scissors Game with JavaScript</a> by Pritishnagpal through GeeksForGeeks.com</li>
         <li><a href="https://javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d">Building a Rock Paper Scissors Game with JavaScript</a> by Mehdi Aoussiad through JavascriptInPlainEnglish.io</li>
     </ul>
 
@@ -322,16 +342,22 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
     </ul>
 <br>
 
-<h3>Content</h3>
+### Content
+
+<p>
     <ul>
         <li>The history and game logic was sourced on <a href="https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock">Rock, Paper, Scissors, Lizard, Spock</a> through the Big Bang Thoery Fandom Wiki</li>
         <li>All other content was written by the project owner, Louise Stanley</li>
     </ul>
+</p>
 <br>
 
-<h3>Media</h3>
+### Media
+
+<p>
     <ul>
         <li>This project relies heavily on the rock paper scissors rock lizard spock icon collection provided by <a href="https://fontawesome.com/v5/search">Font Awesome v5</a></li>
     </ul>
+</p>
 
 [Back to top](#welcome-to-the-ultimate-decision-maker)
