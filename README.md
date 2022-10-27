@@ -3,7 +3,7 @@
 <p>Based on the popular online game 'Rock Paper Scissors Lizard Spock', which is in turn based on the popular real life game 'Rock Paper Scissors', the game can be used to make non-binding decisions without the mental effort required of deciding or to settle objective disagreements between friends and family.</p>
 <p>It is a demonstration of my HTML, CSS and JavaScript skills as required by Portfolio 2 Assessment as part of the Code Institute Diploma in Full Stack Software Development.</p>
 <br>
-<strong>The live site can be found <a href="https://somekindofdesign.github.io/ultimate-decision-maker/">here</a></p></strong>
+<strong>The live website can be found <a href="https://somekindofdesign.github.io/ultimate-decision-maker/">here</a></p></strong>
 <br>
 <p><img width="640px" height=auto src="assets/images/readme/ultimate_decision_maker_mock.png" alt="mock up of desktop, laptop and mobile displaying the ultimate decision maker game website"></p>
 Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_12220977.htm#query=device%20mockup&position=1&from_view=keyword">Freepik</a>
@@ -38,7 +38,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 
 ## User Experience
 <hr>
-<p>Prior to development, the Ultimate Decision Maker was wireframed using design software, <a href="https://www.figma.com/">Figma</a>. This was to ensure that the design and user experience of the site was explored. Although significant changes were made during development, it provided vital foundational structure to the project.</p>
+<p>Prior to development, the Ultimate Decision Maker was wireframed using design software, <a href="https://www.figma.com/">Figma</a>. This was to ensure that the design and user experience of the website was explored. Although significant changes were made during development, it provided vital foundational structure to the project.</p>
 <p><img width="640px" height=auto src="assets/images/readme/figma.png" alt="graphic representation of the ultimate decision maker website">
 <br><br>
 
@@ -60,11 +60,11 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <br>
 
 ### Brand Design
-<p>The site mimics the static, blocky style of early arcade games such as Pacman and Space Invaders. Classic games have seen a revival in popular culture over the last number of years and the Ultimate Decision Maker aims to be part of that nostalgia.
+<p>The website mimics the static, blocky style of early arcade games such as Pacman and Space Invaders. Classic games have seen a revival in popular culture over the last number of years and the Ultimate Decision Maker aims to be part of that nostalgia.
 <ul>
 <li><strong>Colour:</strong> The colour palette uses a dark background and bright, solid colours to highlight different functions and features while relying on white for important detailed information</li>
 <li><strong>Typography:</strong> By using a pixel font for large, headline type and a clean sans-serif for smaller informative type, the typography upholds the arcade theme while maintaining legibilty</li>
-<li><strong>Imagery:</strong> Relying on using repeated icons throughout the site and the game itself is a style choice that mimics the limitations of classic arcade games. In fact, photography could look out of place on the site</li>
+<li><strong>Imagery:</strong> Relying on using repeated icons throughout the website and the game itself is a style choice that mimics the limitations of classic arcade games. In fact, photography could look out of place on the website</li>
 </ul>
 <br>
 
@@ -73,7 +73,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <br>
 
 ### Responsivity
-<p>The site was designed and built mobile first (from 320px) with each element considered for behaviour on all devices from initial sketching. Em, rem and percentage units and media queries are used were appropriate ensuring an optimised experience for all. Similarly, maximum width has been applied to accommodate extra large screens.</p>
+<p>The website was designed and built mobile first (from 320px) with each element considered for behaviour on all devices from initial sketching. Em, rem and percentage units and media queries are used were appropriate ensuring an optimised experience for all. Similarly, maximum width has been applied to accommodate extra large screens.</p>
 
 [Back to top](#welcome-to-the-ultimate-decision-maker)
 <br><br>
@@ -92,16 +92,16 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <br>
 
 <strong>Navigation</strong>
-<p>Featured on all pages, this fully responsive navigation includes links to the landing page, the game and an about page. It is exactly replicated across the site to ensure consistency for the user.</p>
+<p>Featured on all pages, this fully responsive navigation includes links to the landing page, the game and an about page. It is exactly replicated across the website to ensure consistency for the user.</p>
 
-<p>The navigation allows users to browse the site from any page without having to use the back button on their device.</p>
+<p>The navigation allows users to browse the website from any page without having to use the back button on their device.</p>
 
 <p><img width="640px" height=auto src="assets/images/readme/nav_desktop.png" alt="navigation menu of ultimate decision maker website at full width"></p>
 <p><img width="200px" height=auto src="assets/images/readme/nav_mobile.png" alt="navigation menu of ultimate decision maker website at reduced width"></p>
 <br>
 
 <strong>Decision Maker Game</strong>
-<p>The core of the site, this is the game function. Users are provided with instruction and visual cues direct them through the game as they play. They can choose their hand repeatedly and continue the game indefinitley if they wish or reset the game and start over.</p>
+<p>The core of the website, this is the game function. Users are provided with instruction and visual cues direct them through the game as they play. They can choose their hand repeatedly and continue the game indefinitley if they wish or reset the game and start over.</p>
 
 <p><img width="640px" height=auto src="assets/images/readme/game_desktop.png" alt="game section of ultimate decision maker website at full width"></p>
 <p><img width="200px" height=auto src="assets/images/readme/game_mobile.png" alt="game section of ultimate decision maker website at reduced width"></p>
@@ -114,7 +114,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <br>
 
 <strong>Footer</strong>
-<p>The footer includes links to relevant social media sites, opened in new tabs to avoid taking the user away from this site.</p>
+<p>The footer includes links to relevant social media websites, opened in new tabs to avoid taking the user away from this website.</p>
 
 <p><img width="400px" height=auto src="assets/images/readme/footer.png" alt="footer of ultimate decision maker website"></p>
 <br>
@@ -122,18 +122,18 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 ### Features to Implement
 <ul>
     <li>Users can personalise the game with custom labels for the choices (e.g. Pizza v Sushi instead of The Choice You Want v The Right Choice)</li>
-    <li>Users can play 'Best out of 3' or 'Best of 5' games</li>
+    <li>Users can play 'Best of 3' or 'Best of 5' games</li>
     <li>Users can add multiple players (Pizza vs Sushi vs BBQ) to the game</li>
 </ul>
 
-<p>In addition to the above, users should be able to learn how to play the game through a choice comparison function. This feature was built during development and was part of a How-to page. However, it required further debugging and failed QA and usability tests. It was removed from the project before deployment/project deadline and the code saved outside of the project to assist with future iterations of the site.</p>
+<p>In addition to the above, users should be able to learn how to play the game through a choice comparison function. This feature was built during development and was part of a How-to page. However, it required further debugging and failed QA and usability tests. It was removed before deployment/project deadline and the code saved outside of the project to assist with future iterations of the website.</p>
 
 [Back to top](#welcome-to-the-ultimate-decision-maker)
 <br><br>
 
 ## Testing
 <hr>
-<p>Throughout the development of this site, testing was carried out on multiple browsers including Chrome, Firefox and Microsoft Edge on Windows 10. The developer tools of these browsers were used to mimic different device sizes. For all testing, each page was asessed across the following criteria;
+<p>Throughout the development of this website, testing was carried out on multiple browsers including Chrome, Firefox and Microsoft Edge on Windows 10. The developer tools of these browsers were used to mimic different device sizes. For all testing, each page was asessed across the following criteria;
 <ul>
     <li>Layout and positioning (ie is everything where it's expected to be on all devices)</li>
     <li>Functions (ie buttons, links, inputs, etc)</li>
@@ -189,7 +189,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <br>
 
 ### Google Lighthouse
-<p>All pages of the Ultimate Decision Maker site were tested using the Google Lighthouse tool, through Google Chrome Developer tools and <a href="https://web.dev/measure/">Web.dev</a>.</p>
+<p>All pages of the Ultimate Decision Maker website were tested using the Google Lighthouse tool, through Google Chrome Developer tools and <a href="https://web.dev/measure/">Web.dev</a>.</p>
 <ul>
     <li>Performance - 89 (Home), 91 (Decide Now), 88 (About)</li>
     <li>Accessibility - 100 (All)</li>
@@ -212,24 +212,24 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 
 <p>As there was no access to Apple products at the time of testing, <a href="https://lambdatest.com">LambdaTest.com</a> was used to test Apple mobile devices using Opera and Chrome browser apps and Safari on MacOS.</p>
 
-<p>Samsung and Apple both overwrite some styles including dropdown menus and some buttons. Further investigation is needed to evaluate if there is a need to address this and how it would be accomplished. Other than those identified during development and documented in the 'Unfixed Bugs' section below, no bugs or discrepencies were discovered and the experience was verified to be consistant across browsers.</p>
+<p>Samsung and Apple both overwrite some styles including dropdown menus and some buttons. Further investigation is needed to evaluate if there is a need to address this and how it would be accomplished. Other than those identified during development and documented in the 'Unfixed Bugs' section below, no bugs or discrepencies were discovered and the website was verified to be consistant across browsers.</p>
 <br>
 
 ### User Experience Testing
-<p>Tests were conducted with 3 users, one in-person and two remotely using <a href="https://zoom.us">Zoom</a>. All were tested on mobile first then seperately on desktop devices. In all cases, users understood the purpose of the site and the game, they had no issues navigating or playing the game and the experience was reported to be overall, a positive one.</p>
+<p>Tests were conducted with 3 users, one in-person and two remotely using <a href="https://zoom.us">Zoom</a>. All were tested on mobile first then seperately on desktop devices. In all cases, users understood the purpose of the website and the game, they had no issues navigating or playing the game and the experience was reported to be overall, a positive one.</p>
 
 [Back to top](#welcome-to-the-ultimate-decision-maker)
 <br><br>
 
 ## Unfixed Bugs
 <hr>
-<p>There are several bugs that need to be addressed in the next iteration of this project. None are currently blocking game-play or make the site difficult to use but all would improve the overall user experience.</p>
+<p>There are several bugs that need to be addressed in the next iteration of this project. None are currently blocking game-play or make the website difficult to use but all would improve the overall user experience.</p>
 <ul>
     <li><strong>Space between content:</strong> Empty divs before the game function is executed are creating unnecessary space between the game and related content (score and reset) requiring additional scrolling on mobile.</li>
     <li><strong>Game reset position:</strong> Currently when the user resets the game on tablet or mobile devices, the page reloads and the user is brought back to the top of the page and away from the game. A different solution is required to reset the scores while preserving the scroll position.</li>
     <li><strong>Form success:</strong> After submitting the form the user sees a new tab open and a confirmation page from the Code Institute's form dump. A solution is required to prevent the tab opening without blocking the data from being sent.</li>
     <li><strong>Form input clear:</strong> After submitting the form the data the user has entered into the input fields remain there. An event listener was added to clear them once the submit was clicked but this cleared the fields before the data was posted. An attempt to add a delay after the event was not successfully debugged before the project deadline and removed from this iteration.</li>
-    <li><strong>How-to compare function:</strong> The function appears not to work beyond the first if statement (a tie). No errors are visible in the console, no errors are visible in jshint and attempts to debug using console.log have been unsuccessful as the log appears at every point tested. Although this is not part of the main function of the site, it has been removed from this iteration of the project. All code written so far is saved outside the project.</li>
+    <li><strong>How-to compare function:</strong> The function appears not to work beyond the first if statement (a tie). No errors are visible in the console, no errors are visible in jshint and attempts to debug using console.log have been unsuccessful as the log appears at every point tested. Although this is not part of the main function of the website, it has been removed from this iteration of the project. All code written so far is saved outside the project.</li>
 </ul>
 
 [Back to top](#welcome-to-the-ultimate-decision-maker)
@@ -239,7 +239,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <hr>
 
 ### Deployment
-<p>As part of the Code Institute submission process, this site was deployed to GitHub pages. The steps to deploy are as follows:</p>
+<p>As part of the Code Institute submission process, this website was deployed to GitHub pages. The steps to deploy are as follows:</p>
 <ol>
     <li>Open github.com and log in to user account</li>
     <li>Find the Ultimate Decision Maker repository</li>
@@ -250,7 +250,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
     <li>Click save</li>
 </ol
 
-<p><strong>The live site can be found here - <a href="https://somekindofdesign.github.io/ultimate-decision-maker/">https://somekindofdesign.github.io/ultimate-decision-maker/</a></p></strong>
+<p><strong>The live website can be found here - <a href="https://somekindofdesign.github.io/ultimate-decision-maker/">https://somekindofdesign.github.io/ultimate-decision-maker/</a></p></strong>
 <p>Initial depolyment was successful and subsequent testing across multiple browsers found no discrepencies.</p>
 <br>
 
