@@ -197,7 +197,20 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <br>
 
 <h3>Browser Validation</h3>
-<p>Browser testing was conducted after the initial deployment using the free testing tool on <a href="https://live.browserstack.com/dashboard">BrowserStack.com</a>, while extending the reach of testing to other Windows OS, the browser Safari and multiple MacOS. It is worth noting that as this is a free tool, the accuracy of the tests may be limited.</p>
+<p>Browser testing was conducted manually on the following apps:</p>
+<ul>
+    <li>Chrome - Desktop & Mobile</li>
+    <li>Firefox - Desktop & Mobile</li>
+    <li>Opera - Desktop & Mobile</li>
+    <li>MS Edge - Desktop</li>
+    <li>DuckDuckGo - Mobile</li>
+    <li>Samsung Internet - Mobile</li>
+</ul>
+<br>
+
+<p>As there was no access to Apple products at the time of testing, <a href="https://lambdatest.com">LambdaTest.com</a> was used to test Apple mobile devices using Opera and Chrome browser apps and Safari on MacOS.</p>
+
+<p>Samsung and Apple both overwrite some styles including dropdown menus and some buttons. Further investigation is needed to evaluate if there is a need to address this and how it would be accomplished. Other than those identified during development and documented in the 'Unfixed Bugs' section below, no bugs or discrepencies were discovered and the experience was verified to be consistant across browsers.</p>
 <br>
 
 <h3>User Acceptance Testing</h3>
@@ -211,7 +224,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <p>There are several bugs that need to be addressed in the next iteration of this project. None are currently blocking game-play or make the site difficult to use but all would improve the overall user experience.</p>
 <ul>
     <li><strong>Space between content:</strong> Empty divs before the game function is executed are creating unnecessary space between the game and related content (score and reset) requiring additional scrolling on mobile.</li>
-    <li><strong>Game reset position:</strong> Currently when the user resets the game, the page reloads and the user is brought back to the top of the page and away from the game. A different solution is required to reset the scores while preserving the scroll position.</li>
+    <li><strong>Game reset position:</strong> Currently when the user resets the game on tablet or mobile devices, the page reloads and the user is brought back to the top of the page and away from the game. A different solution is required to reset the scores while preserving the scroll position.</li>
     <li><strong>How-to compare function:</strong> The function appears not to work beyond the first if statement (a tie). No errors are visible in the console, no errors are visible in jshint and attempts to debug using console.log have been unsuccessful as the log appears at every point tested. Although this is not part of the main function of the site, it should be given priority for debugging as it is completely broken and potentially very frustrating for users, compared to other bugs in this list.</li>
     <li><strong>Form success:</strong> After submitting the form the user sees a new tab open and a confirmation page from the Code Institute's form dump. A solution is required to prevent the tab opening without blocking the data from being sent.</li>
     <li><strong>Form input clear:</strong> After submitting the form the data the user has entered into the input fields remain there. An event listener was added to clear them once the submit was clicked but this cleared the fields before the data was posted. An attempt to add a delay after the event was not successfully debugged before the project deadline and removed from this iteration.</li>
