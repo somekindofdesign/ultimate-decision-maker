@@ -5,21 +5,19 @@
 <br>
 <strong>The live site can be found <a href="https://somekindofdesign/??">here</a></p></strong>
 <br>
-<p><img width="640px" height=auto src="assets/images/readme/??.jpg" alt="??">
-Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_12220977.htm#query=device%20mockup&position=1&from_view=keyword">Freepik</a></p>
-<br>
+<p><img width="640px" height=auto src="assets/images/readme/ultimate_game_mock.png" alt="mock up of desktop, laptop and mobile displaying the ultimate decision maker game website"></p>
+Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_12220977.htm#query=device%20mockup&position=1&from_view=keyword">Freepik</a>
+<br><br>
 
 <h2>User Experience</h2>
 <hr>
-<p>Prior to development, the Ultimate Decision Maker was wireframed using design software, <a href="https://somekindofdesign/??">Figma</a>. This was to ensure that the design and experience of the site was fully explored and that it enhanced user experience. Although changes were made during development, it provided vital structure and guidance to the project.</p>
-<br>
-<p><img width="640px" height=auto src="assets/images/readme/??.jpg" alt="??">
-??<a href="??">??</a></p>
-<br>
+<p>Prior to development, the Ultimate Decision Maker was wireframed using design software, <a href="https://www.figma.com/">Figma</a>. This was to ensure that the design and user experience of the site was explored. Although significant changes were made during development, it provided vital foundational structure to the project.</p>
+<p><img width="640px" height=auto src="assets/images/readme/figma.png" alt="graphic representation of the ultimate decision maker website">
+<br><br>
 
 <strong>User Goals</strong>
 <ul>
-<li>Come to a conslusion with little input</li>
+<li>Come to a conclusion with little input</li>
 <li>Make an objective decision between two options</li>
 </ul>
 <br>
@@ -28,8 +26,8 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <p>It is assumed that all users have access to a device capable of connecting to the internet.</p>
 <ul>
 <li>I'm hungry and tired and want to order food for delivery to my house but can't decide if I want to order pizza or sushi</li>
-<li>We want to watch a film together but I want to watch a horror and my husband wants to watch a comedy</li>
-<li>While socialisng together, my housemate voices his opinion that Ariana Grande has the best songs but I want to demonstrate that it is, in fact, Dua Lipa that has the best songs</li>
+<li>We want to watch a film together but I want to watch a horror and my partner wants to watch a comedy</li>
+<li>While socialisng together, my housemate voices their opinion that Ariana Grande has the best songs but I want to demonstrate that it is, in fact, Dua Lipa that has the best songs</li>
 <li>I'm feeling a bit lonely today but I work 40 hours a week and commute 2 hours a day so I can't decide if I should adopt a Siberian Husky puppy or not</li>
 </ul>
 <br>
@@ -37,18 +35,18 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <strong>Brand Design</strong>
 <p>The site mimics the static, blocky style of early arcade games such as Pacman and Space Invaders. Classic games have seen a revival in popular culture over the last number of years and the Ultimate Decision Maker aims to be part of that nostalgia.
 <ul>
-<li>Colour: The colour palette uses a dark background and bright, solid colours to highlight different functions and features while relying on white for important detailed information.</li>
-<li>Typography: By using a pixel font for large, headline type and a clean sans-serif for smaller informative type, the typography upholds the arcade theme while maintaining legibilty.</li>
-<li>Imagery: Relying on using repeated icons throughout the site and the game itself is a style choice that mimics the limitations of classic arcade games. In fact, photography could look out of place on the site.</li>
+<li><strong>Colour:</strong> The colour palette uses a dark background and bright, solid colours to highlight different functions and features while relying on white for important detailed information</li>
+<li><strong>Typography:</strong> By using a pixel font for large, headline type and a clean sans-serif for smaller informative type, the typography upholds the arcade theme while maintaining legibilty</li>
+<li><strong>Imagery:</strong> Relying on using repeated icons throughout the site and the game itself is a style choice that mimics the limitations of classic arcade games. In fact, photography could look out of place on the site</li>
 </ul>
 <br>
 
 <strong>Accessibility</strong>
-<p>Colour schemes, typography, button sizes and icon sizes have been designed to align with WCAG 2.0 accessbility guidelines (link??) up to AAA standard.</p>
+<p>Colour schemes, typography, button sizes and icon sizes have been designed to align with <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">WCAG 2.0 accessbility guidelines</a> up to a minimum of AA standard.</p>
 <br>
 
 <strong>Responsivity</strong>
-<p>The site was designed and built mobile first (from 320px) with each element considered for their behaviour on all devices from initial sketching. Em, rem and percentage units and media queries are used were appropriate ensuring an optimised experience for all. Similarly, maximum width has been applied to maintain structure for extra large screens.</p>
+<p>The site was designed and built mobile first (from 320px) with each element considered for behaviour on all devices from initial sketching. Em, rem and percentage units and media queries are used were appropriate ensuring an optimised experience for all. Similarly, maximum width has been applied to accomodate extra large screens.</p>
 
 [Back to top](#welcome-to-the-ultimate-decision-maker)
 <br><br>
@@ -62,7 +60,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <strong>Landing</strong>
 <p>The goal of the landing page is to entice and interest the user in playing the game while simultaneously introducing them to the brand. It includes several key markers including the logo in the header, the stylised type and the icons demonstrating the choices in the game.</p>
 
-<p><img width="640px" height=auto src="assets/images/readme/??_desktop.PNG" alt="??"></p>
+<p><img width="640px%" height=auto src="assets/images/readme/home_desktop.png" alt="landing page of ultimate decision maker website at full width">
 <br>
 
 <strong>Navigation</strong>
@@ -70,38 +68,33 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 
 <p>The navigation allows users to browse the site from any page without having to use the back button on their device.</p>
 
-<p><img width="640px" height=auto src="assets/images/readme/??_desktop.PNG" alt="??"></p>
-<p><img width="375px" height=auto src="assets/images/readme/??_mobile.PNG" alt="??"></p>
+<p><img width="640px" height=auto src="assets/images/readme/nav_desktop.png" alt="navigation menu of ultimate decision maker website at full width"></p>
+<p><img width="200px" height=auto src="assets/images/readme/nav_mobile.png" alt="navigation menu of ultimate decision maker website at reduced width"></p>
 <br>
 
 <strong>Decision Maker Game</strong>
 <p>The core of the site, this is the game function. Users are provided with instruction and visual cues direct them through the game as they play. They can choose their hand repeatedly and continue the game indefinitley if they wish or reset the game and start over.</p>
 
-<p><img width="480px" height=auto src="assets/images/readme/??_desktop.png" alt="??"></p>
+<p><img width="640px" height=auto src="assets/images/readme/game_desktop.png" alt="game section of ultimate decision maker website at full width"></p>
+<p><img width="200px" height=auto src="assets/images/readme/game_mobile.png" alt="game section of ultimate decision maker website at reduced width"></p>
 <br>
 
 <strong>How-To</strong>
-<p>For users that are unfamiliar with Rock Paper Scissors Spock or indeed Rock Paper Scissors, this page allows them to preview the game rules and plan their strategy to beat this game of chance. It also includes a brief history of the game and how it has developed over the years.</p>
+<p>For users that are unfamiliar with Rock Paper Scissors Spock or indeed Rock Paper Scissors, this feature allows them to preview the game rules and plan their strategy to beat this game of chance. It also includes a brief history of the game and how it has developed over the years.</p>
 
-<p><img width="480px" height=auto src="assets/images/readme/??_desktop.png" alt="??"></p>
-<br>
-
-<strong>About</strong>
-<p>This page of the site is for users who want to know more about who made the game. It also includes a ghost cursor as an element of fun for the user and additional support for the retro theme. The code for this was provided by <a href="https://github.com/tholman/cursor-effects">Tholman</a> - see credits for further information.</p>
-
-<p><img width="480px" height=auto src="assets/images/readme/??_desktop.png" alt="??"></p>
+<p><img width="640px" height=auto src="assets/images/readme/compare_desktop.png" alt="how to play feature of ultimate decision maker website at full width"></p>
 <br>
 
 <strong>Submit Ideas Form</strong>
 <p>Here users have the opportunity to contact the game developer with their own idea for a similar game.</p>
 
-<p><img width="480px" height=auto src="assets/images/readme/??_desktop.png" alt="??"></p>
+<p><img width="640px" height=auto src="assets/images/readme/idea_desktop.png" alt="idea form of ultimate decision maker website at full width"></p>
 <br>
 
 <strong>Footer</strong>
 <p>The footer includes links to relevant social media sites, opened in new tabs to avoid taking the user away from this site.</p>
 
-<p><img width="640px" height=auto src="assets/images/readme/??_desktop.PNG" alt="??"></p>
+<p><img width="640px" height=auto src="assets/images/readme/footer_desktop.png" alt="footer of ultimate decision maker website at full width"></p>
 <br>
 
 <h3>Features Left to Implement</h3>
@@ -120,17 +113,64 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <ul>
     <li>Layout and positioning (ie is everything where it's expected to be on all devices)</li>
     <li>Functions (ie buttons, links, inputs, etc)</li>
-    <li>Features (ie image rendering, form fill and submission, etc)</li>
+    <li>Features (ie game play, form fill and submission, etc)</li>
     <li>Consistency, convention and expectation (ie does it allow affordance to the user)</li>
 </ul>
 </p>
 <br>
 
-<p>This was repeated towards the end of the project using the free testing tool on <a href="https://live.browserstack.com/dashboard">BrowserStack.com</a>, while extending the reach of testing to other Windows OS, the browser Safari and multiple MacOS. It is worth noting that as this is a free tool, the accuracy of the tests may be limited.</p>
+<h3>Manual Testing</h3>
+<p>Manual testing was conducted by both the developer and an external tester using the following test cases. No errors were found during this phase.</p>
 <br>
 
-<h3>Manual Testing</h3>
-<p>??</p>
+<p><strong>Test Case 1 </strong></p>
+<p><strong>Title: </strong>Game play - play a game of rock paper scissors lizard spock</p>
+<p><strong>Description: </strong>A user should be able to make a selection from the given options and have it compared to an auto-generated selection multiple times then know the outcome of each comparison</p>
+<p><strong>Precondition: </strong>The user is familiar with the concept of rock paper scissors or rock paper scissors lizard spock</p>
+<p><strong>Assumption: </strong>A browser app on a device with connection to the internet is being used</p>
+
+<strong>Test Steps:</strong>
+<ul>
+<li>Navigate to The Ultimate Decision Maker game website</li>
+<li>Click the 'Decide Now' link in the nav menu</li>
+<li>Scroll to the options and select one</li>
+<li>Expected Result: User choice is displayed, auto-generated choice is displayed, result of game is displayed and game score is updated (unless there is a tie)</li>
+<li><strong>Actual Result: As expected</strong></li>
+</ul>
+<br>
+
+<p><strong>Test Case 2</strong></p>
+<p><strong>Title: </strong>How to play</p>
+<p><strong>Description: </strong>A user should be able to find out how a game of rock paper scissors or rock paper scissors spock works by selecting two hands to compare and viewing the result</p>
+<p><strong>Precondition: </strong>The user is not familiar with the concept of rock paper scissors or rock paper scissors lizard spock</p>
+<p><strong>Assumption: </strong>A browser app on a device with connection to the internet is being used</p>
+
+<strong>Test Steps:</strong>
+<ul>
+<li>Navigate to The Ultimate Decision Maker game website</li>
+<li>Click the 'How to Play' link in the nav menu</li>
+<li>Scroll to the first dropdown and select one option</li>
+<li>Scroll to the second dropdown and select one option</li>
+<li>Click the 'Find Out Who Wins' button</li>
+<li>Expected Result: A message displays the winning selection or if both selections are the same that the outcome is a tie</li>
+<li><strong>Actual Result: Not as expected, the result message only ever displays a tie as the result</strong></li>
+</ul>
+<br>
+
+<p><strong>Test Case 3</strong></p>
+<p><strong>Title: </strong>Send an idea</p>
+<p><strong>Description: </strong>A user should be able to fill in their name, some text and their email address in the fields provided</p>
+<p><strong>Precondition: </strong>The user has an email address</p>
+<p><strong>Assumption: </strong>A browser app on a device with connection to the internet is being used</p>
+
+<strong>Test Steps:</strong>
+<ul>
+<li>Navigate to The Ultimate Decision Maker game website</li>
+<li>Click the 'About Us' link in the nav menu</li>
+<li>Scroll to the form and fill in the fields provided</li>
+<li>Expected Result: The form posts the data to the Code Institute form dump and a success message is displayed</li>
+<li><strong>Actual Result: As expected</strong></li>
+</ul>
 <br>
 
 <h3>Code Validation & the Console</h3>
@@ -139,10 +179,6 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
     <li><strong>CSS:</strong> No errors or warnings were returned by <a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validation Service</a></li>
     <li><strong>JavaScript:</strong> No errors were returned by <a href="https://jshint.com/">JS Hint</a>, however each page received multiple warnings that read "X is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)"</li>
 </ul>
-<br>
-
-<h3>Automated Testing</h3>
-<p>??</p>
 <br>
 
 <h3>Google Lighthouse</h3>
@@ -161,7 +197,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <br>
 
 <h3>Browser Validation</h3>
-<p>??</p>
+<p>Browser testing was conducted after the initial deployment using the free testing tool on <a href="https://live.browserstack.com/dashboard">BrowserStack.com</a>, while extending the reach of testing to other Windows OS, the browser Safari and multiple MacOS. It is worth noting that as this is a free tool, the accuracy of the tests may be limited.</p>
 <br>
 
 <h3>User Acceptance Testing</h3>
