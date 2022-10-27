@@ -5,7 +5,7 @@
 <br>
 <strong>The live site can be found <a href="https://somekindofdesign/??">here</a></p></strong>
 <br>
-<p><img width="640px" height=auto src="assets/images/readme/ultimate_game_mock.png" alt="mock up of desktop, laptop and mobile displaying the ultimate decision maker game website"></p>
+<p><img width="640px" height=auto src="assets/images/readme/ultimate_decision_maker_mock.png" alt="mock up of desktop, laptop and mobile displaying the ultimate decision maker game website"></p>
 Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_12220977.htm#query=device%20mockup&position=1&from_view=keyword">Freepik</a>
 <br><br>
 
@@ -87,11 +87,12 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <strong>Landing</strong>
 <p>The goal of the landing page is to entice and interest the user into playing the game while simultaneously introducing them to the brand. It includes several key markers including the logo in the header, the stylised type and the icons demonstrating the choices in the game.</p>
 
-<p><img width="640px%" height=auto src="assets/images/readme/home_desktop.png" alt="landing page of ultimate decision maker website at full width">
+<p><img width="640px" height=auto src="assets/images/readme/home_desktop.png" alt="landing page of ultimate decision maker website at full width">
+<p><img width="200px" height=auto src="assets/images/readme/home_mobile.png" alt="landing page of ultimate decision maker website at reduced width">
 <br>
 
 <strong>Navigation</strong>
-<p>Featured on all pages, this fully responsive navigation includes links to the landing page, the game, a how-to page and an about page. It is exactly replicated across the site to ensure consistency for the user.</p>
+<p>Featured on all pages, this fully responsive navigation includes links to the landing page, the game and an about page. It is exactly replicated across the site to ensure consistency for the user.</p>
 
 <p>The navigation allows users to browse the site from any page without having to use the back button on their device.</p>
 
@@ -106,22 +107,16 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <p><img width="200px" height=auto src="assets/images/readme/game_mobile.png" alt="game section of ultimate decision maker website at reduced width"></p>
 <br>
 
-<strong>How-To</strong>
-<p>For users that are unfamiliar with Rock Paper Scissors Spock or indeed Rock Paper Scissors, this feature allows them to preview the game rules and plan their strategy to beat this game of chance. It also includes a brief history of the game and how it has developed over the years.</p>
-
-<p><img width="640px" height=auto src="assets/images/readme/compare_desktop.png" alt="how to play feature of ultimate decision maker website at full width"></p>
-<br>
-
 <strong>Submit Ideas Form</strong>
 <p>Here users have the opportunity to contact the game developer with their own idea for a similar game.</p>
 
-<p><img width="640px" height=auto src="assets/images/readme/idea_desktop.png" alt="idea form of ultimate decision maker website at full width"></p>
+<p><img width="200px" height=auto src="assets/images/readme/idea.png" alt="idea form of ultimate decision maker website"></p>
 <br>
 
 <strong>Footer</strong>
 <p>The footer includes links to relevant social media sites, opened in new tabs to avoid taking the user away from this site.</p>
 
-<p><img width="640px" height=auto src="assets/images/readme/footer_desktop.png" alt="footer of ultimate decision maker website at full width"></p>
+<p><img width="400px" height=auto src="assets/images/readme/footer.png" alt="footer of ultimate decision maker website"></p>
 <br>
 
 ### Features to Implement
@@ -130,6 +125,8 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
     <li>Users can play 'Best out of 3' or 'Best of 5' games</li>
     <li>Users can add multiple players (Pizza vs Sushi vs BBQ) to the game</li>
 </ul>
+
+<p>In addition to the above, users should be able to learn how to play the game through a choice comparison function. This feature was built during development and was part of a How-to page. However, it required further debugging and failed QA and usability tests. It was removed from the project before deployment/project deadline and the code saved outside of the project to assist with future iterations of the site.</p>
 
 [Back to top](#welcome-to-the-ultimate-decision-maker)
 <br><br>
@@ -167,24 +164,6 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <br>
 
 <p><strong>Test Case 2</strong></p>
-<p><strong>Title: </strong>How to play</p>
-<p><strong>Description: </strong>A user should be able to find out how a game of rock paper scissors or rock paper scissors spock works by selecting two hands to compare and viewing the result</p>
-<p><strong>Precondition: </strong>The user is not familiar with the concept of rock paper scissors or rock paper scissors lizard spock</p>
-<p><strong>Assumption: </strong>A browser app on a device with connection to the internet is being used</p>
-
-<strong>Test Steps:</strong>
-<ul>
-<li>Navigate to The Ultimate Decision Maker game website</li>
-<li>Click the 'How to Play' link in the nav menu</li>
-<li>Scroll to the first dropdown and select one option</li>
-<li>Scroll to the second dropdown and select one option</li>
-<li>Click the 'Find Out Who Wins' button</li>
-<li>Expected Result: A message displays the winning selection or if both selections are the same that the outcome is a tie</li>
-<li><strong>Actual Result: Not as expected, the result message only ever displays a tie as the result</strong></li>
-</ul>
-<br>
-
-<p><strong>Test Case 3</strong></p>
 <p><strong>Title: </strong>Send an idea</p>
 <p><strong>Description: </strong>A user should be able to fill in their name, some text and their email address in the fields provided</p>
 <p><strong>Precondition: </strong>The user has an email address</p>
@@ -212,7 +191,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 ### Google Lighthouse
 <p>All pages of the Ultimate Decision Maker site were tested using the Google Lighthouse tool, through Google Chrome Developer tools and <a href="https://web.dev/measure/">Web.dev</a>.</p>
 <ul>
-    <li>Performance - 89 (Home), 91 (Decide Now), 92 (How-to), 88 (About)</li>
+    <li>Performance - 89 (Home), 91 (Decide Now), 88 (About)</li>
     <li>Accessibility - 100 (All)</li>
     <li>Best Practices - 100 (All)</li>
     <li>SEO - 100 (All)</li>
@@ -239,8 +218,6 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 ### User Experience Testing
 <p>Tests were conducted with 3 users, one in-person and two remotely using <a href="https://zoom.us">Zoom</a>. All were tested on mobile first then seperately on desktop devices. In all cases, users understood the purpose of the site and the game, they had no issues navigating or playing the game and the experience was reported to be overall, a positive one.</p>
 
-<p>There were some minor areas of confusion and frustration arising from issues that were identified during development. Specifically, the broken comparison tool on the How-to page and the new tab opening following submitting the idea form on the About page caused confusion. Although both were reported as not reason enough for the user not to return to the site, they have been documented in the 'Unfixed Bugs' section below and are reccommended to be fixed in the next iteration.</p>
-
 [Back to top](#welcome-to-the-ultimate-decision-maker)
 <br><br>
 
@@ -250,9 +227,9 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 <ul>
     <li><strong>Space between content:</strong> Empty divs before the game function is executed are creating unnecessary space between the game and related content (score and reset) requiring additional scrolling on mobile.</li>
     <li><strong>Game reset position:</strong> Currently when the user resets the game on tablet or mobile devices, the page reloads and the user is brought back to the top of the page and away from the game. A different solution is required to reset the scores while preserving the scroll position.</li>
-    <li><strong>How-to compare function:</strong> The function appears not to work beyond the first if statement (a tie). No errors are visible in the console, no errors are visible in jshint and attempts to debug using console.log have been unsuccessful as the log appears at every point tested. Although this is not part of the main function of the site, it should be given priority for debugging as it is completely broken and potentially very frustrating for users, compared to other bugs in this list.</li>
     <li><strong>Form success:</strong> After submitting the form the user sees a new tab open and a confirmation page from the Code Institute's form dump. A solution is required to prevent the tab opening without blocking the data from being sent.</li>
     <li><strong>Form input clear:</strong> After submitting the form the data the user has entered into the input fields remain there. An event listener was added to clear them once the submit was clicked but this cleared the fields before the data was posted. An attempt to add a delay after the event was not successfully debugged before the project deadline and removed from this iteration.</li>
+    <li><strong>How-to compare function:</strong> The function appears not to work beyond the first if statement (a tie). No errors are visible in the console, no errors are visible in jshint and attempts to debug using console.log have been unsuccessful as the log appears at every point tested. Although this is not part of the main function of the site, it has been removed from this iteration of the project. All code written so far is saved outside the project.</li>
 </ul>
 
 [Back to top](#welcome-to-the-ultimate-decision-maker)
@@ -331,11 +308,6 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
         <li><a href="https://betterprogramming.pub/7-ways-to-code-rock-paper-scissors-in-javascript-4189a5e7e535">7 Ways To Code Rock Paper Scissors in JavaScript</a> by Samuele through BetterProgramming.pub</li>
     </ul>
 
-<strong>Prevent Page Reload</strong>
-    <ul>
-        <li><a href="https://stackoverflow.com/a/49056105">Stop form refreshing page on submit</a> by Deke through StackOverflow.com</li>
-    </ul>
-
 <strong>Ghost Cursor</strong>
     <ul>
         <li><a href="https://github.com/tholman/cursor-effects">Cursor Effects</a> by Tholman through Github</li>
@@ -346,7 +318,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 
 <p>
     <ul>
-        <li>The history and game logic was sourced on <a href="https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock">Rock, Paper, Scissors, Lizard, Spock</a> through the Big Bang Thoery Fandom Wiki</li>
+        <li>The game logic was sourced on <a href="https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock">Rock, Paper, Scissors, Lizard, Spock</a> through the Big Bang Theory Fandom Wiki</li>
         <li>All other content was written by the project owner, Louise Stanley</li>
     </ul>
 </p>
