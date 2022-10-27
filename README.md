@@ -9,13 +9,28 @@
 Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_12220977.htm#query=device%20mockup&position=1&from_view=keyword">Freepik</a>
 <br><br>
 
-<h2>User Experience</h2>
+## Contents
+1. [User Experience](#user-experience)
+    1. [User Goals](#user-goals)
+2. [Features](#features)
+    1. [User Goals](#user-goals) 
+3. [Testing](#testing)
+    1. [User Goals](#user-goals)
+4. [Unfixed Bugs](#unfixed-bugs)
+    1. [User Goals](#user-goals) 
+5. [Deployment](#deployment)
+    1. [User Goals](#user-goals) 
+6. [Credits](#credits)
+    1. [User Goals](#user-goals)
+<br><br>
+
+## User Experience
 <hr>
 <p>Prior to development, the Ultimate Decision Maker was wireframed using design software, <a href="https://www.figma.com/">Figma</a>. This was to ensure that the design and user experience of the site was explored. Although significant changes were made during development, it provided vital foundational structure to the project.</p>
 <p><img width="640px" height=auto src="assets/images/readme/figma.png" alt="graphic representation of the ultimate decision maker website">
 <br><br>
 
-<strong>User Goals</strong>
+### User Goals
 <ul>
 <li>Come to a conclusion with little input</li>
 <li>Make an objective decision between two options</li>
@@ -51,7 +66,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 [Back to top](#welcome-to-the-ultimate-decision-maker)
 <br><br>
 
-<h2>Features</h2>
+## Features
 <hr>
 <p>The first release of the Ultimate Decision Maker website includes several vital features which are detailed below. Future releases should include additional features as outlined in the 'Features Left to Implement' section.</p>
 <br>
@@ -107,7 +122,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 [Back to top](#welcome-to-the-ultimate-decision-maker)
 <br><br>
 
-<h2>Testing</h2>
+## Testing
 <hr>
 <p>Throughout the development of this site, testing was carried out on different devices using the developer tools on multiple browsers including Chrome, Firefox and Microsoft Edge on Windows 10. For all testing, each page was reviewed across the following criteria;
 <ul>
@@ -215,7 +230,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 [Back to top](#welcome-to-the-ultimate-decision-maker)
 <br><br>
 
-<h2>Unfixed Bugs</h2>
+## Unfixed Bugs
 <hr>
 <p>There are several bugs that need to be addressed in the next iteration of this project. None are currently blocking game-play or make the site difficult to use but all would improve the overall user experience.</p>
 <ul>
@@ -229,7 +244,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 [Back to top](#welcome-to-the-ultimate-decision-maker)
 <br><br>
 
-<h2>Deployment</h2>
+## Deployment
 <hr>
 <p>As part of the Code Institute submission process, this site was deployed to GitHub pages. The steps to deploy are as follows:</p>
 <ol>
@@ -273,7 +288,7 @@ Image by <a href="https://www.freepik.com/free-psd/artist-room-decorated_1222097
 [Back to top](#welcome-to-the-ultimate-decision-maker)
 <br><br>
 
-<h2>Credits</h2>
+## Credits
 <hr>
 <h3>Code</h3>
 <p>The code from this project was implemented by the project owner, Louise Stanley. Additional help, guidance and solutions were also used from the below sources.</p>
